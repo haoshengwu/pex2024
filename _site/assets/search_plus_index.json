@@ -1,0 +1,31 @@
+{"/pex2024/others/about/": {
+    "title": "About others",
+    "keywords": "Jekyll",
+    "url": "/pex2024/others/about/",
+    "body": "This is an about page for “others” in the collections."
+  },"/pex2024/pages/about/": {
+    "title": "About",
+    "keywords": "Jekyll",
+    "url": "/pex2024/pages/about/",
+    "body": "This is an about page."
+  },"/pex2024/pages/contact/": {
+    "title": "Contact",
+    "keywords": "Jekyll",
+    "url": "/pex2024/pages/contact/",
+    "body": "This is an contact page."
+  },"/pex2024/pages/design/draft/": {
+    "title": "Design Draft",
+    "keywords": "Jekyll",
+    "url": "/pex2024/pages/design/draft/",
+    "body": "This is an draft page."
+  },"/pex2024/jekyll/2024-09-08-equlib.html": {
+    "title": "Magnetic Equilibirum",
+    "keywords": "Jekyll",
+    "url": "/pex2024/jekyll/2024-09-08-equlib.html",
+    "body": "I will introduce the Magnetic Equilibrium, not only the 2D but also the 3D."
+  },"/pex2024/jekyll/2024-09-08-Intro.html": {
+    "title": "Introduction",
+    "keywords": "Jekyll",
+    "url": "/pex2024/jekyll/2024-09-08-Intro.html",
+    "body": "Here will be the introduction of nuclear fuion"
+  }}
