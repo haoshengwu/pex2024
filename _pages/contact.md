@@ -6,4 +6,4 @@ category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+If you have any questions/comments related to the PEX, e.g. physics, website, simualtions etc. Please feel free to contant Haosheng Wu haosheng.wu@polito.it .
