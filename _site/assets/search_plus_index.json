@@ -12,20 +12,25 @@
     "title": "Contact",
     "keywords": "Jekyll",
     "url": "/pex2024/pages/contact/",
-    "body": "This is an contact page."
+    "body": "If you have any questions/comments related to the PEX, e.g. physics, website, simualtions etc. Please feel free to contant Haosheng Wu haosheng.wu@polito.it ."
   },"/pex2024/pages/design/draft/": {
     "title": "Design Draft",
     "keywords": "Jekyll",
     "url": "/pex2024/pages/design/draft/",
     "body": "This is an draft page."
-  },"/pex2024/jekyll/2024-09-08-equlib.html": {
+  },"/pex2024/jekyll/2024-09-03-Final.html": {
+    "title": "Final Project",
+    "keywords": "Jekyll",
+    "url": "/pex2024/jekyll/2024-09-03-Final.html",
+    "body": "Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba. The teachers (Haosheng Wu and Prof. Fabio Subba) will provied the 4 topics with different Tokamak devices. Every topic is the cutting-edge research work, which means it is the real research in the edge plasma comumunity. If the student give a good analysis, then the results can be directly used and can be a part of a publised paper. Although the topic is challanging, I hope you can experience the feelling of real research!"
+  },"/pex2024/jekyll/2024-09-02-equlib.html": {
     "title": "Magnetic Equilibirum",
     "keywords": "Jekyll",
-    "url": "/pex2024/jekyll/2024-09-08-equlib.html",
+    "url": "/pex2024/jekyll/2024-09-02-equlib.html",
     "body": "I will introduce the Magnetic Equilibrium, not only the 2D but also the 3D."
-  },"/pex2024/jekyll/2024-09-08-Intro.html": {
+  },"/pex2024/jekyll/2024-09-01-Intro.html": {
     "title": "Introduction",
     "keywords": "Jekyll",
-    "url": "/pex2024/jekyll/2024-09-08-Intro.html",
-    "body": "Here will be the introduction of nuclear fuion"
+    "url": "/pex2024/jekyll/2024-09-01-Intro.html",
+    "body": "Here is the briefly introdcution about the PEX."
   }}
