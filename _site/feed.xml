@@ -1,6 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2024-09-10T23:50:23+02:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
-</subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-03-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-03T00:00:00+02:00</published><updated>2024-09-03T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-03-Final.html"><![CDATA[<p>Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2024-09-11T12:21:32+02:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
+</subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Instructions on Final Porject</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-04-Final_instruction.html" rel="alternate" type="text/html" title="Instructions on Final Porject" /><published>2024-09-04T00:00:00+02:00</published><updated>2024-09-04T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final_instruction</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-04-Final_instruction.html"><![CDATA[]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-03-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-03T00:00:00+02:00</published><updated>2024-09-03T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-03-Final.html"><![CDATA[<p>Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.</p>
 
 <p>The teachers (Haosheng Wu and Prof. Fabio Subba) will provied the 4 topics with different Tokamak devices. Every topic is the cutting-edge research work, which means it is the real research in the edge plasma comumunity. If the student give a good analysis, then the results can be directly used and can be a part of a publised paper.</p>
 
-<p>Although the topic is challanging, I hope you can experience the feelling of real research!</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.]]></summary></entry><entry><title type="html">Magnetic Equilibirum</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-02-equlib.html" rel="alternate" type="text/html" title="Magnetic Equilibirum" /><published>2024-09-02T00:00:00+02:00</published><updated>2024-09-02T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/equlib</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-02-equlib.html"><![CDATA[<p>I will introduce the Magnetic Equilibrium, not only the 2D but also the 3D.</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[I will introduce the Magnetic Equilibrium, not only the 2D but also the 3D.]]></summary></entry><entry><title type="html">Introduction</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-01-Intro.html" rel="alternate" type="text/html" title="Introduction" /><published>2024-09-01T00:00:00+02:00</published><updated>2024-09-01T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Intro</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-01-Intro.html"><![CDATA[<p>Here is the briefly introdcution about the PEX.</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Here is the briefly introdcution about the PEX.]]></summary></entry></feed>
+<p>Although the topic is challanging, I hope you can experience the feelling of real research!</p>
+
+<h2 id="project-one">Project One</h2>
+
+<h3 id="title">Title:</h3>
+
+<h4 id="comparion-between-solps-iter-simulations-with-the-two-point-models-for-eu-demo-dtt-divertor-regimes">Comparion between SOLPS-ITER simulations with the Two-Point models for EU-DEMO (DTT) divertor regimes.</h4>
+
+<h3 id="problem-to-solve">Problem to Solve:</h3>
+
+<p>DTT is under construcntion and aiming to be operated in the detachment regime.</p>
+
+<blockquote class="block-tip">
+  <h3 id="hints">Hints</h3>
+
+  <p>We already discussed the divertor regimes: low recycling regime, high recycling regime and the detachment.
+The key parameters for 2PM is the density, connection length, temperature. How can we make a connection between them?</p>
+</blockquote>
+
+<h2 id="project-two">Project Two</h2>
+
+<h3 id="title-1">Title:</h3>
+
+<h4 id="evaluation-the-dtt-divertor-performan-with-the-argon-and-neon-impurity-seeding">Evaluation the DTT divertor performan with the Argon and Neon impurity seeding</h4>
+
+<h3 id="problem-to-solve-1">Problem to Solve:</h3>
+
+<p>Impurity seeding are necessary for future tokamak high power scenario operation.</p>
+
+<blockquote class="block-tip">
+  <h3 id="hints-1">Hints</h3>
+
+  <p>The atom number for Neon is 10, it means there are 10 (DIECI) types Neon ions from Neon+ to Neon10+.
+For Argon, the atom number is 18, it means there are (DICIOTTO) types Aron ions from Argon+ to Argon18+.</p>
+
+</blockquote>
+
+<h2 id="project-three">Project Three</h2>
+
+<h3 id="title-2">Title:</h3>
+
+<h4 id="comparison-between-solps-iter-and-the-lengyel-model-for-dtt-n-seeding-plasma">Comparison between SOLPS-ITER and the Lengyel Model for DTT N seeding plasma</h4>
+
+<h3 id="problem-to-solve-2">Problem to Solve:</h3>
+
+<p>For full impurity model in SOLPS simulations, the running time is too long. There are simple models to predict.
+We need to figure out their performance.</p>
+
+<blockquote class="block-tip">
+  <h3 id="hints-2">Hints</h3>
+
+  <p>Please remember that in Edge Plasma simulatation, there is alway not accuarate match between Experimens, CODES.
+Even the different codes with the same physical models.</p>
+
+</blockquote>
+
+<h2 id="project-four">Project Four</h2>
+
+<h3 id="title-3">Title:</h3>
+
+<h4 id="comparison-between-solps-iter-and-s-i-krasheninnikovs-detachment-model-for-asdex-upgrade">Comparison between SOLPS-ITER and S. I. Krasheninnikov’s detachment model for ASDEX-Upgrade</h4>
+
+<h3 id="problem-to-solve-3">Problem to Solve:</h3>
+
+<p>Different with the 2PM, there is another detachment model which is proposed by S. I. Krasheninnikov’s.
+In this project, the SOLPS AUG simulations, which have been well validated agasinst experimental datat, 
+will be compared with the S. I. Krasheninnikov’s detachment model.</p>
+
+<blockquote class="block-tip">
+  <h3 id="hints-3">Hints</h3>
+
+  <p>For S. I. Krasheninnikov’s detachment model, the key paramters are no longer the upstream conditions, 
+but are ***, you should think about how to extract/get such values based on current simulation.</p>
+
+</blockquote>
+
+<h2 id="project-five">Project Five</h2>
+
+<h3 id="title-4">Title:</h3>
+
+<h4 id="evaluate-the-divertor-performance-between-single-null-and-snowflake-configurations">Evaluate the divertor performance between Single Null and Snowflake configurations.</h4>
+
+<h3 id="problem-to-solve-4">Problem to Solve:</h3>
+
+<p>Advanced divertor configurations has been proposed to future nuclear reactors. Snowflake is one of them.</p>
+
+<blockquote class="block-tip">
+  <h3 id="hints-4">Hints</h3>
+
+  <p>In Snowflake, there are four targets that the topology are totally different with Standard Single Null.
+There are fout targets. So, the heat flux at the divertor targets need to be carefully estimated.</p>
+
+</blockquote>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.]]></summary></entry><entry><title type="html">Magnetic Equilibirum</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-02-equlib.html" rel="alternate" type="text/html" title="Magnetic Equilibirum" /><published>2024-09-02T00:00:00+02:00</published><updated>2024-09-02T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/equlib</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-02-equlib.html"><![CDATA[<p>I will introduce the Magnetic Equilibrium, not only the 2D but also the 3D.</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[I will introduce the Magnetic Equilibrium, not only the 2D but also the 3D.]]></summary></entry><entry><title type="html">Introduction</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-01-Intro.html" rel="alternate" type="text/html" title="Introduction" /><published>2024-09-01T00:00:00+02:00</published><updated>2024-09-01T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Intro</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-01-Intro.html"><![CDATA[<p>Here is the briefly introdcution about the PEX.</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Here is the briefly introdcution about the PEX.]]></summary></entry></feed>
