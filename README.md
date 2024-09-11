@@ -19,15 +19,22 @@ Basice knowldge about python or Matlab
 
 # Angenda
 
-The first date:
+<div class="table-wrapper" markdown="block">
 
-The second data:
+|date|tile|time|content|
+|:-:|:-:|:-:|:-:|
+|2024-12-*|Preparation|1:00-3:00|Install necessary tools etc.|
+|2024-12-*|Lecture 1|1:00-3:00|topology, mesh, basic physics|
+|2024-12-*|Lecture 2|1:00-3:00|Atomic pyhsics and neutral transport|
+|2024-12-*|Lecture 3|1:00-3:00|Divertor regimes|
 
-The Third data:
+</div>
 
 # Final project
 
 You can introduce this jekyll theme into your own site by either
+
+
 
 ## License
 
