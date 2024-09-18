@@ -1,17 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2024-09-11T13:57:47+02:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
-</subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Instructions on Final Porject</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-04-Final_instruction.html" rel="alternate" type="text/html" title="Instructions on Final Porject" /><published>2024-09-04T00:00:00+02:00</published><updated>2024-09-04T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final_instruction</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-04-Final_instruction.html"><![CDATA[<h3 id="what-to-do">What to Do?</h3>
-
-<p>The projects are already in the docker imagine.</p>
-
-<h3 id="how-to-do">How to do?</h3>
-
-<p>A jupyter nootbook for each project has been prepared in the dir**.
-The necessary libraries are already imported.
-The student can directly writen their python scripts and analysis in the jupyter file.</p>
-
-<h3 id="when-to-do">When to do?</h3>
-
-<p>The deadline for sumbiting the</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[What to Do?]]></summary></entry><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-03-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-03T00:00:00+02:00</published><updated>2024-09-03T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-03-Final.html"><![CDATA[<p>Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2024-09-18T12:03:51+02:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
+</subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-10T00:00:00+02:00</published><updated>2024-09-10T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html"><![CDATA[<p>Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.</p>
 
 <p>The teachers (Haosheng Wu and Prof. Fabio Subba) will provied the 5 topics with different Tokamak devices. Every topic is the cutting-edge research work, which means it is the real research in the edge plasma comumunity.</p>
 
@@ -106,4 +94,36 @@ but are ***, you should think about how to extract/get such values based on curr
 
   <p>We now focuse the plasma parameters instead of radial profiles.</p>
 
-</blockquote>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.]]></summary></entry><entry><title type="html">Magnetic Equilibirum</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-02-equlib.html" rel="alternate" type="text/html" title="Magnetic Equilibirum" /><published>2024-09-02T00:00:00+02:00</published><updated>2024-09-02T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/equlib</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-02-equlib.html"><![CDATA[<p>I will introduce the Magnetic Equilibrium, not only the 2D but also the 3D.</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[I will introduce the Magnetic Equilibrium, not only the 2D but also the 3D.]]></summary></entry><entry><title type="html">Introduction</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-01-Intro.html" rel="alternate" type="text/html" title="Introduction" /><published>2024-09-01T00:00:00+02:00</published><updated>2024-09-01T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Intro</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-01-Intro.html"><![CDATA[<p>Here is the briefly introdcution about the PEX.</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Here is the briefly introdcution about the PEX.]]></summary></entry></feed>
+</blockquote>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.]]></summary></entry><entry><title type="html">Instructions on Final Porject</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html" rel="alternate" type="text/html" title="Instructions on Final Porject" /><published>2024-09-09T00:00:00+02:00</published><updated>2024-09-09T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final_instruction</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html"><![CDATA[<h2 id="what-to-do">What to Do?</h2>
+
+<p>Five projects related to power exhaust modelling are provided. Each project is derived from the ongoing research projects. After the whole workshop, each student will be randomly assigned ONE of the five project. Each project contains several sub-questions. The students are expected to answer these equstions independently.</p>
+
+<h2 id="how-to-do">How to do?</h2>
+
+<p>During the Hand-on sessions, the students will perform physical analysis related to the power exhaust modelling. Similarly, for the final project, students will perform physical analysis to address the sub-questions of each project. A Jupyter notebook template for each project will be provided in the Docker image, where students will perform their analysis and answer the sub-questions.</p>
+
+<p>For each project, a final report is need to be submitted. The report will be created by the student’s Jupyter notebook file that directly by ‘save as PDF’ botton. In another word, all the analysis process, e.g. related python scripts, and answers will be together presented. The final report will be evaluated by Prof. Subba.</p>
+
+<p>The final report can be send to Prof. Subba by email fabio.subba@polito.it</p>
+
+<h2 id="when-to-do">When to do?</h2>
+
+<p>The deadline for sumbiting the report is ????.??.??</p>
+
+<p>If you have any questionse, please feel free to contact haosheng.wu@polito.it .</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[What to Do?]]></summary></entry><entry><title type="html">Lecture 3</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-03-Lecture3.html" rel="alternate" type="text/html" title="Lecture 3" /><published>2024-09-03T00:00:00+02:00</published><updated>2024-09-03T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Lecture3</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-03-Lecture3.html"><![CDATA[<p>In this part, we introduce:</p>
+
+<ol>
+  <li>Divetor regime</li>
+  <li>detachment</li>
+  <li>particle exhaust, power exhaust</li>
+</ol>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this part, we introduce:]]></summary></entry><entry><title type="html">Lecture 2</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-02-Lecture2.html" rel="alternate" type="text/html" title="Lecture 2" /><published>2024-09-02T00:00:00+02:00</published><updated>2024-09-02T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Lecture2</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-02-Lecture2.html"><![CDATA[<p>In this part, we introduce:</p>
+
+<ol>
+  <li>Numerical tool</li>
+</ol>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this part, we introduce:]]></summary></entry><entry><title type="html">Lecture 1</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-01-Lecture1.html" rel="alternate" type="text/html" title="Lecture 1" /><published>2024-09-01T00:00:00+02:00</published><updated>2024-09-01T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Lecture1</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-01-Lecture1.html"><![CDATA[<p>In this part, we introduce:</p>
+
+<ol>
+  <li>what is PEX</li>
+  <li>related experiments in tokmaka</li>
+  <li>Equilibirum</li>
+</ol>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this part, we introduce:]]></summary></entry></feed>
