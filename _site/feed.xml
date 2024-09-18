@@ -1,36 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2024-09-18T12:03:51+02:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
-</subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-10T00:00:00+02:00</published><updated>2024-09-10T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html"><![CDATA[<p>Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.</p>
-
-<p>The teachers (Haosheng Wu and Prof. Fabio Subba) will provied the 5 topics with different Tokamak devices. Every topic is the cutting-edge research work, which means it is the real research in the edge plasma comumunity.</p>
-
-<p>Although the topic is challanging, I hope you can experience the feelling of real research!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2024-09-18T13:37:15+02:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
+</subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-10T00:00:00+02:00</published><updated>2024-09-10T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html"><![CDATA[<p>Following are the Five projects and the students can visit their coresponding project.</p>
 
 <h2 id="project-one">Project One</h2>
 
-<h3 id="title">Title:</h3>
+<h3 id="comparion-between-solps-iter-simulations-with-the-two-point-models-for-eu-demo-divertor-regimes">Comparion between SOLPS-ITER simulations with the Two-Point models for EU-DEMO divertor regimes.</h3>
 
-<h4 id="comparion-between-solps-iter-simulations-with-the-two-point-models-for-eu-demo-dtt-divertor-regimes">Comparion between SOLPS-ITER simulations with the Two-Point models for EU-DEMO (DTT) divertor regimes.</h4>
+<h3 id="questions">Questions:</h3>
 
-<h3 id="problem-to-solve">Problem to Solve:</h3>
+<p>1) The profiles of the Electron Density ne and Electron temperature are shown in Figure. Could you please estimate the Lambda_n and Lambda_T by hand.</p>
 
-<p>DTT is under construcntion and aiming to be operated in the detachment regime.</p>
+<p>2) Based on the currnet OMP profiles, if the divertor is in the low recycling regime, according to the 2PM, what the OT divertor target profiles should be?</p>
+
+<p>3) How to calculate plasma pressure at the OMP and OT? Could you please plot the pressure profles according to OMP and OT ne&amp;Te profiles.</p>
+
+<p>4) Is there pressure drop in this case? what is the divertor regime for this case? If the divertor will enter into detchment, what will happen about the pressure?</p>
 
 <blockquote class="block-tip">
   <h3 id="hints">Hints</h3>
 
   <p>We already discussed the divertor regimes: low recycling regime, high recycling regime and the detachment.
-The key parameters for 2PM is the density, connection length, temperature. How can we make a connection between them?</p>
+The key parameters for 2PM is the density, connection length, temperature. How can we make a connection between 2PM values and the simulated profiles?</p>
 </blockquote>
 
 <h2 id="project-two">Project Two</h2>
 
-<h3 id="title-1">Title:</h3>
+<h3 id="evaluation-the-dtt-divertor-performan-with-the-argon-and-neon-impurity-seeding">Evaluation the DTT divertor performan with the Argon and Neon impurity seeding</h3>
 
-<h4 id="evaluation-the-dtt-divertor-performan-with-the-argon-and-neon-impurity-seeding">Evaluation the DTT divertor performan with the Argon and Neon impurity seeding</h4>
-
-<h3 id="problem-to-solve-1">Problem to Solve:</h3>
+<h3 id="questions-1">Questions:</h3>
 
 <p>Impurity seeding are necessary for future tokamak high power scenario operation.</p>
+
+<ol>
+  <li>
+    <p>Why we selected Argon or Neon as impurity seeding?</p>
+  </li>
+  <li>
+    <p>The q_para at the OMP is shown in the figure. Could you please estimated the lambda_q by hand for the Argon and Neon cases?</p>
+  </li>
+  <li>
+    <p>If there is no impurity seeding, could you estimated the q_para at the Outer divertor target?</p>
+  </li>
+  <li>
+    <p>Could you please compare the q_para in Q3 with the q_para for Argon and Neon case. Could you please estimated how much power are radiated?</p>
+  </li>
+</ol>
 
 <blockquote class="block-tip">
   <h3 id="hints-1">Hints</h3>
@@ -42,14 +55,20 @@ For Argon, the atom number is 18, it means there are (DICIOTTO) types Aron ions 
 
 <h2 id="project-three">Project Three</h2>
 
-<h3 id="title-2">Title:</h3>
+<h3 id="comparison-between-solps-iter-and-the-lengyel-model-for-dtt-n-seeding-plasma">Comparison between SOLPS-ITER and the Lengyel Model for DTT N seeding plasma</h3>
 
-<h4 id="comparison-between-solps-iter-and-the-lengyel-model-for-dtt-n-seeding-plasma">Comparison between SOLPS-ITER and the Lengyel Model for DTT N seeding plasma</h4>
-
-<h3 id="problem-to-solve-2">Problem to Solve:</h3>
+<h3 id="problem-to-solve">Problem to Solve:</h3>
 
 <p>For full impurity model in SOLPS simulations, the running time is too long. There are simple models to predict.
 We need to figure out their performance.</p>
+
+<p>1.</p>
+
+<p>2.</p>
+
+<p>3.</p>
+
+<p>4.</p>
 
 <blockquote class="block-tip">
   <h3 id="hints-2">Hints</h3>
@@ -61,15 +80,25 @@ Even the different codes with the same physical models.</p>
 
 <h2 id="project-four">Project Four</h2>
 
-<h3 id="title-3">Title:</h3>
+<h3 id="comparison-between-solps-iter-and-s-i-krasheninnikovs-detachment-model-for-asdex-upgrade">Comparison between SOLPS-ITER and S. I. Krasheninnikov’s detachment model for ASDEX-Upgrade</h3>
 
-<h4 id="comparison-between-solps-iter-and-s-i-krasheninnikovs-detachment-model-for-asdex-upgrade">Comparison between SOLPS-ITER and S. I. Krasheninnikov’s detachment model for ASDEX-Upgrade</h4>
-
-<h3 id="problem-to-solve-3">Problem to Solve:</h3>
+<h3 id="problem-to-solve-1">Problem to Solve:</h3>
 
 <p>Different with the 2PM, there is another detachment model which is proposed by S. I. Krasheninnikov’s.
 In this project, the SOLPS AUG simulations, which have been well validated agasinst experimental datat, 
 will be compared with the S. I. Krasheninnikov’s detachment model.</p>
+
+<ol>
+  <li>
+    <p>What the characteristic of the particle detachment?</p>
+  </li>
+  <li>
+    <p>Based on the provide profiles, could you please plot the pressure drop profiles?</p>
+  </li>
+  <li></li>
+</ol>
+
+<p>4.</p>
 
 <blockquote class="block-tip">
   <h3 id="hints-3">Hints</h3>
@@ -81,20 +110,33 @@ but are ***, you should think about how to extract/get such values based on curr
 
 <h2 id="project-five">Project Five</h2>
 
-<h3 id="title-4">Title:</h3>
+<h3 id="evaluate-the-nergy-loss-along-flux-tube-for--dtt">Evaluate the nergy loss along flux tube for  DTT.</h3>
 
-<h4 id="evaluate-the-momumtum-loss-and-energy-loss-along-flux-tube-for-eu-demo--dtt">Evaluate the momumtum loss and energy loss along flux tube for EU-DEMO / DTT.</h4>
+<h3 id="problem-to-solve-2">Problem to Solve:</h3>
 
-<h3 id="problem-to-solve-4">Problem to Solve:</h3>
+<p>Evaluate the energy loss in different divertor regimes</p>
 
-<p>Evaluate the momumtum loss and energy loss in different divertor regimes</p>
+<ol>
+  <li>
+    <p>Could you please estimated the connection length for DTT?</p>
+  </li>
+  <li>
+    <p>The Electron density and Electron temperature profiles along the flux tube are shown. Could you please determine the divertor regime for the two cases and explain the reason.</p>
+  </li>
+  <li>
+    <p>If k0e = 2000, could you please estimated the q_para at the upstream?</p>
+  </li>
+  <li>
+    <p>if γ is 7, could you please estimated the q_para at the outer target? Could you compare the value with Q3 and explain the reason of differences.</p>
+  </li>
+</ol>
 
 <blockquote class="block-tip">
   <h3 id="hints-4">Hints</h3>
 
   <p>We now focuse the plasma parameters instead of radial profiles.</p>
 
-</blockquote>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Every student will be asinged to a project. The student should finished the project independently. The project will be finished by the Jupyter Nootbook with the Python Kernel. The explanations/analysis are also directly presented in the Jupyter Nootbook. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file. It means all the source codes and the analysis will be togther evaluated by Prof. Subba.]]></summary></entry><entry><title type="html">Instructions on Final Porject</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html" rel="alternate" type="text/html" title="Instructions on Final Porject" /><published>2024-09-09T00:00:00+02:00</published><updated>2024-09-09T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final_instruction</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html"><![CDATA[<h2 id="what-to-do">What to Do?</h2>
+</blockquote>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Following are the Five projects and the students can visit their coresponding project.]]></summary></entry><entry><title type="html">Instructions on Final Porject</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html" rel="alternate" type="text/html" title="Instructions on Final Porject" /><published>2024-09-09T00:00:00+02:00</published><updated>2024-09-09T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final_instruction</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html"><![CDATA[<h2 id="what-to-do">What to Do?</h2>
 
 <p>Five projects related to power exhaust modelling are provided. Each project is derived from the ongoing research projects. After the whole workshop, each student will be randomly assigned ONE of the five project. Each project contains several sub-questions. The students are expected to answer these equstions independently.</p>
 
