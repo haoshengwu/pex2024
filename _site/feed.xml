@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2024-11-18T14:49:53+01:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2024-11-18T23:08:11+01:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
 </subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-10T00:00:00+02:00</published><updated>2024-09-10T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html"><![CDATA[<p>Following are the Five projects and the students can visit their coresponding project.</p>
 
 <h2 id="project-one">Project One</h2>
@@ -173,7 +173,84 @@ but are ***, you should think about how to extract/get such values based on curr
   <li>Important tokakmak parameters</li>
   <li>Parallel transport</li>
   <li>Outer Midplane profiles</li>
-</ol>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this lecture we will focus on:]]></summary></entry><entry><title type="html">Prerequisite</title><link href="http://localhost:4000/pex2024/jekyll/2024-08-01-Prerequisite.html" rel="alternate" type="text/html" title="Prerequisite" /><published>2024-08-01T00:00:00+02:00</published><updated>2024-08-01T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Prerequisite</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-08-01-Prerequisite.html"><![CDATA[<p>In this workshop, we will use <a href="https://jupyter.org/">Jupyter Notebook</a> as the GUI to do some exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contains in a <a href="https://www.docker.com">Docker image</a>. The docker image contains everything needed to run a piece of software, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use <a href="https://code.visualstudio.com/">VScode</a> to acess the docker container which is a running instance of a docker image.</p>
+</ol>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this lecture we will focus on:]]></summary></entry><entry><title type="html">BasicPython</title><link href="http://localhost:4000/pex2024/jekyll/2024-08-02-BasicPython.html" rel="alternate" type="text/html" title="BasicPython" /><published>2024-08-02T00:00:00+02:00</published><updated>2024-08-02T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/BasicPython</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-08-02-BasicPython.html"><![CDATA[<p>In this page, we will introduce the simplest usages of Python, which are used in this workshop. You can also try the following python commands in the Jupyter notebook from our pex2024 docker container or an <a href="https://onecompiler.com/python">online python interpreter</a>.<br /></p>
+
+<h2 id="1-print-hello-world">1. Print ‘Hello World!’</h2>
+
+<p>The first example is print ‘Hello World!’ in python. The command is:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print("Hello, World!")
+</code></pre></div></div>
+<p>In Python, print() is a function used to display text, variables, calculation results, and other information. 
+Some other examples are:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>name = "Haosheng.Wu"
+score = 18
+print(name, score)
+</code></pre></div></div>
+
+<h2 id="2-simple-calculation">2. Simple calculation</h2>
+
+<p>In Python, you can easily perform simple calculations using basic arithmetic operators. Here are some examples:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Addition</span>
+a = 2
+b = 3 
+c = a + b
+print("c =", c)
+
+<span class="gh"># Subtraction</span>
+a = 10
+b = 4
+c = 10 - 4
+print("c=", c)
+
+<span class="gh"># Multiplication</span>
+a = 5
+b = 6
+c = 5 <span class="err">*</span> 6
+print("c =", c)
+
+<span class="gh"># Division</span>
+a = 20
+b = 3
+c = a/b
+print("c=", c)
+</code></pre></div></div>
+
+<h2 id="3-function">3. Function</h2>
+
+<p>In Python, a function is a block of reusable code that performs a specific task. In the workshop, we will not write any function, but may use some function already exist.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def add(a, b):
+    return a + b
+
+sum = add(5, 7)
+print("The sum is:", result)
+</code></pre></div></div>
+
+<h2 id="4-array">4. Array</h2>
+
+<p>In Python, there are good open source libraries, Numpy is one of them which can be used to create 2D array. Following is an example of 2D array with size a(5,2).</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Import the numpy library as the name of np</span>
+import numpy as np
+
+<span class="gh"># Use np.array create a 5*2 array that has the format array[row_index, column_index]</span>
+<span class="gh"># The index is start from 0.</span>
+array = np.array([[1,2],[3,4],[5,6],[7,8],[9,10]])
+
+<span class="gh"># Print each row</span>
+print(array[0,:])
+print(array[1,:])
+print(array[2,:])
+print(array[3,:])
+print(array[4,:])
+
+<span class="gh"># Print each colmn</span>
+print(array[:,0])
+print(array[:,1])
+</code></pre></div></div>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this page, we will introduce the simplest usages of Python, which are used in this workshop. You can also try the following python commands in the Jupyter notebook from our pex2024 docker container or an online python interpreter.]]></summary></entry><entry><title type="html">Prerequisite</title><link href="http://localhost:4000/pex2024/jekyll/2024-08-01-Installation.html" rel="alternate" type="text/html" title="Prerequisite" /><published>2024-08-01T00:00:00+02:00</published><updated>2024-08-01T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Installation</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-08-01-Installation.html"><![CDATA[<p>In this workshop, we will use <a href="https://jupyter.org/">Jupyter Notebook</a> as the GUI to do some exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contains in a <a href="https://www.docker.com">Docker image</a>. The docker image contains everything needed to run a piece of software, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use <a href="https://code.visualstudio.com/">VScode</a> to acess the docker container which is a running instance of a docker image.</p>
 
 <p>You may have a question that Why do we use this format for the workshop? The answer is:</p>
 
@@ -185,23 +262,23 @@ but are ***, you should think about how to extract/get such values based on curr
 
 <h3 id="step1-install-docker">Step1: Install Docker</h3>
 
-<p>In the <a href="https://www.docker.com/">Docker official website</a> download the window version which is mark by red line as the following picture and then install the docker according to the instruction.</p>
+<p>In the <a href="https://www.docker.com/">Docker official website</a> download the Window version which is mark by red line as the following picture and then install the docker according to the instruction.<br /></p>
 
-<p><img src="../assets/win_step1.png" alt="win_step1" style="width: 60%;" /></p>
+<p><img src="/pex2024/assets/win_step1.png" alt="win_step1" style="width: 60%;" /></p>
 
 <hr />
 <h3 id="step2-install-vscode">Step2: Install VScode</h3>
 
-<p>In the <a href="https://code.visualstudio.com/">VScode official website</a> download the window version which is mark by red line as the following picture and then install the VScode according to the instruction.</p>
+<p>In the <a href="https://code.visualstudio.com/">VScode official website</a> download the Window version which is mark by red line as the following picture and then install the VScode according to the instruction.<br /></p>
 
-<p><img src="../assets/win_step2.png" alt="win_step2" style="width: 60%;" /></p>
+<p><img src="/pex2024/assets/win_step2.png" alt="win_step2" style="width: 60%;" /></p>
 
 <hr />
 <h3 id="step3-install-docker-extension-in-vscode">Step3: Install Docker extension in VScode</h3>
 
-<p>After the successful installation of VScode, run the VScode. In the VScode, click the icon of ‘Extensions’. In the search bar type “docker” and then install the “docker extension” in VScode. This step in shown in the following picture. Through the “docker extension”, we can access the docker container direclty by VScode.</p>
+<p>After the successful installation of VScode, run the VScode. In the VScode, click the icon of ‘Extensions’. In the search bar type “docker” and then install the “docker extension” in VScode. This step in shown in the following picture. Through the “docker extension”, we can access the docker container direclty by VScode.<br /></p>
 
-<p><img src="../assets/win_step3.png" alt="win_step3" style="width: 60%;" /></p>
+<p><img src="/pex2024/assets/win_step3.png" alt="win_step3" style="width: 60%;" /></p>
 
 <hr />
 <p><strong>You can do the following steps by yourself or We can do the them together in the first time of hand-on session.</strong></p>
@@ -209,35 +286,90 @@ but are ***, you should think about how to extract/get such values based on curr
 <h3 id="step4-download-the-pex2024-image-in-docker-desktop">Step4: Download the pex2024 image in docker desktop</h3>
 
 <p>Run the docker program and then click the “Images” icon. In the search bar, type “pex2024” then you will see the coresponding image. Click the ‘pull’ botton to automatically install the coresponding image.<br />
-This image contains all the necessary materials which are used for the hand-on sessions.</p>
+This image contains all the necessary materials which are used for the hand-on sessions.<br /></p>
 
-<p><img src="../assets/win_step4.png" alt="win_step4" style="width: 60%;" /></p>
+<p><img src="/pex2024/assets/win_step4.png" alt="win_step4" style="width: 60%;" /></p>
 
+<hr />
 <h3 id="step5-run-the-pex2024-container-to-create-the-container">Step5: Run the pex2024 container to create the container</h3>
-
 <p>As presented by the following picture, in the this step:<br />
 1) In the VScode, click the ‘docker’ icon, then in the left, there are related items.<br />
 2) In the ‘IMAGES’, find the ‘docker.io/wuhsh/pex2024’ image, which is downloaded in step4, and then click the ‘&gt;’ botton.<br />
 3) Right click ‘20241117’, which is the tag for the image.<br />
-4) Click ‘Run Interactive’ that a container will be automatically build based on this image.<br /></p>
+4) Click ‘Run Interactive’ that a container will be automatically build based on this image.<br />
+<img src="/pex2024/assets/win_step5.png" alt="win_step5" style="width: 60%;" /></p>
 
-<p><img src="../assets/win_step5.png" alt="win_step5" style="width: 60%;" /></p>
-
+<hr />
 <h3 id="step6-launch-the-container">Step6: Launch the container.</h3>
-
 <p>As presented by the following picture, in the this step:<br />
 1) In the ‘CONTAINERS’ part of VScode, right click our container ‘wuhsh/pex2024:20241117’.<br />
-2) Select the ‘Open in Browser’.</p>
+2) Select the ‘Open in Browser’.<br />
+<img src="/pex2024/assets/win_step6.png" alt="win_step6" style="width: 60%;" /></p>
 
-<p><img src="../assets/win_step6.png" alt="win_step6" style="width: 60%;" /></p>
-
+<hr />
 <h3 id="step7-start-jupyter-notebook-through-browser">Step7: Start Jupyter Notebook through Browser.</h3>
-<p>Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the ‘TERNIMAL’ part of VScode, as shown in the left, and copy the token and then paste it to the browser. 
-<img src="../assets/win_step7.png" alt="win_step7" style="width: 100%;" /></p>
+<p>Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the ‘TERNIMAL’ part of VScode, as shown in the left, and copy the token and then paste it to the browser.<br />
+<img src="/pex2024/assets/win_step7.png" alt="win_step7" style="width: 100%;" /></p>
 
+<hr />
 <h3 id="step8-final-step">Step8: Final step</h3>
-<p>If everything go well, in the browser you can see as the following picture. All of our hand-on sessions are based the jupyter nootbook.
-<img src="../assets/win_step8.png" alt="win_step8" style="width: 100%;" /></p>
+<p>If everything go well, in the browser you can see as the following picture. All of our hand-on sessions are based the jupyter nootbook.<br />
+<img src="/pex2024/assets/win_step8.png" alt="win_step8" style="width: 100%;" /></p>
 
-<h2 id="fow-windows-1">Fow Windows:</h2>
-<p>The installation for Mac is similar to Windows, followings are the steps:</p>]]></content><author><name>Haosheng Wu and Yilin Wang</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this workshop, we will use Jupyter Notebook as the GUI to do some exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contains in a Docker image. The docker image contains everything needed to run a piece of software, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use VScode to acess the docker container which is a running instance of a docker image.]]></summary></entry></feed>
+<h2 id="fow-mac">Fow Mac:</h2>
+<p>The installations for Mac is similar to Windows, followings are the steps:<br /></p>
+
+<h3 id="step1-install-docker-1">Step1: Install Docker</h3>
+
+<p>In the <a href="https://www.docker.com/">Docker official website</a> download the correct Mac version according to your CPU, which is mark by red line as the following picture and then install the docker according to the instruction.<br /></p>
+
+<p><img src="/pex2024/assets/mac_step1.png" alt="mac_step1" style="width: 60%;" /></p>
+
+<hr />
+<h3 id="step2-install-vscode-1">Step2: Install VScode</h3>
+
+<p>In the <a href="https://code.visualstudio.com/">VScode official website</a> download the Mac version which is mark by red line as the following picture and then install the VScode according to the instruction.<br /></p>
+
+<p><img src="/pex2024/assets/mac_step2.png" alt="mac_step2" style="width: 60%;" /></p>
+
+<hr />
+<h3 id="step3-install-docker-extension-in-vscode-1">Step3: Install Docker extension in VScode</h3>
+
+<p>After the successful installation of VScode, run the VScode. In the VScode, click the icon of ‘Extensions’. In the search bar type “docker” and then install the “docker extension” in VScode. This step in shown in the following picture. Through the “docker extension”, we can access the docker container direclty by VScode.<br /></p>
+
+<p><img src="/pex2024/assets/mac_step3.png" alt="mac_step3" style="width: 60%;" /></p>
+
+<hr />
+<p><strong>You can do the following steps by yourself or We can do the them together in the first time of hand-on session.</strong>
+***</p>
+
+<h3 id="step4-download-the-pex2024-image-in-docker-desktop-1">Step4: Download the pex2024 image in docker desktop</h3>
+<p>Run the docker program and then click the “Images” icon. In the search bar, type “pex2024” then you will see the coresponding image. Click the ‘pull’ botton to automatically install the coresponding image.<br />
+This image contains all the necessary materials which are used for the hand-on sessions.<br />
+<img src="/pex2024/assets/mac_step4.png" alt="mac_step4" style="width: 60%;" /></p>
+
+<hr />
+<h3 id="step5-run-the-pex2024-container-to-create-the-container-1">Step5: Run the pex2024 container to create the container</h3>
+<p>As presented by the following picture, in the this step:<br />
+1) In the VScode, click the ‘docker’ icon, then in the left, there are related items.<br />
+2) In the ‘IMAGES’, find the ‘docker.io/wuhsh/pex2024’ image, which is downloaded in step4, and then click the ‘&gt;’ botton.<br />
+3) Right click ‘20241117’, which is the tag for the image.<br />
+4) Click ‘Run Interactive’ that a container will be automatically build based on this image.<br />
+<img src="/pex2024/assets/mac_step5.png" alt="mac_step5" style="width: 60%;" /></p>
+
+<hr />
+<h3 id="step6-launch-the-container-1">Step6: Launch the container.</h3>
+<p>As presented by the following picture, in the this step:<br />
+1) In the ‘CONTAINERS’ part of VScode, right click our container ‘wuhsh/pex2024:20241117’.<br />
+2) Select the ‘Open in Browser’.<br />
+<img src="/pex2024/assets/mac_step6.png" alt="mac_step6" style="width: 60%;" /></p>
+
+<hr />
+<h3 id="step7-start-jupyter-notebook-through-browser-1">Step7: Start Jupyter Notebook through Browser.</h3>
+<p>Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the ‘TERNIMAL’ part of VScode, as shown in the left, and copy the token, e.g. bf75b5667da71b9d82ef23cad10e851133882761247e292e, then paste it to the browser and log in.<br />
+<img src="/pex2024/assets/mac_step7.png" alt="mac_step7" style="width: 100%;" /></p>
+
+<hr />
+<h3 id="step8-final-step-1">Step8: Final step</h3>
+<p>If everything go well, in the browser you can see as the following picture. All of our hand-on sessions are based the jupyter nootbook.<br />
+<img src="/pex2024/assets/mac_step8.png" alt="mac_step8" style="width: 100%;" /></p>]]></content><author><name>Haosheng Wu and Yilin Wang</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this workshop, we will use Jupyter Notebook as the GUI to do some exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contains in a Docker image. The docker image contains everything needed to run a piece of software, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use VScode to acess the docker container which is a running instance of a docker image.]]></summary></entry></feed>
