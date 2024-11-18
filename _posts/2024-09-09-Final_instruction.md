@@ -16,7 +16,7 @@ During the Hand-on sessions, the students will perform physical analysis related
 
 For each project, a final report needs to be submitted, which is directly transformed from the student's Jupyter Nootbook file into a PDF file. In other word, all the analysis process, e.g. related python scripts, and answers will be together presented. The final report will be evaluated by Prof. Subba.
 
-The final report needs to be upleaded [Dropbox]
+The final report needs to be upleaded Dropbox.
 
 ## When to do?
 

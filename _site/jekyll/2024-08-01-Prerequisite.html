@@ -1,9 +1,7 @@
-<!-- Slightly Modified from _layouts/home.html -->
-
 <!DOCTYPE HTML>
 <html lang="en" >
     <head><meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>PEX workshop 2024</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Prerequisite · PEX workshop 2024</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="description" content="Power Exhaust modelling Workshop 2024
 "><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="Dr. Haosheng Wu, Prof. Fabio Subba"><link rel="stylesheet" href="/pex2024/assets/gitbook/style.css">
 <link rel="stylesheet" href="/pex2024/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
@@ -27,9 +25,11 @@
 
 
 
+            <link rel="prev" href="/pex2024/" />
+        
 
         
-            <link rel="next" href="/pex2024/jekyll/2024-08-01-Prerequisite.html" />
+            <link rel="next" href="/pex2024/jekyll/2024-09-01-Lecture1.html" />
         
     </head>
     <body>
@@ -88,12 +88,15 @@
 
                         
                             
-                            <li class="chapter" data-level="1.1" data-path="/pex2024/jekyll/2024-08-01-Prerequisite.html">
+                            <li class="chapter active" data-level="1.2" data-path="/pex2024/jekyll/2024-08-01-Prerequisite.html">
                             
                                 <a href="/pex2024/jekyll/2024-08-01-Prerequisite.html" onclick="pageScrollToTop(this)">
                                     Prerequisite
                                 </a>
                                 
+                                    
+                                        <ul><li><a href="#fow-windows" onclick="mobilePageScrollToAnchor(this)" >Fow Windows:</a><ul><li><a href="#step1-install-docker" onclick="mobilePageScrollToAnchor(this)" >Step1: Install Docker</a></li><li><a href="#step2-install-vscode" onclick="mobilePageScrollToAnchor(this)" >Step2: Install VScode</a></li><li><a href="#step3-install-docker-extension-in-vscode" onclick="mobilePageScrollToAnchor(this)" >Step3: Install Docker extension in VScode</a></li><li><a href="#step4-download-the-pex2024-image-in-docker-desktop" onclick="mobilePageScrollToAnchor(this)" >Step4: Download the pex2024 image in docker desktop</a></li><li><a href="#step5-run-the-pex2024-container-to-create-the-container" onclick="mobilePageScrollToAnchor(this)" >Step5: Run the pex2024 container to create the container</a></li><li><a href="#step6-launch-the-container" onclick="mobilePageScrollToAnchor(this)" >Step6: Launch the container.</a></li><li><a href="#step7-start-jupyter-notebook-through-browser" onclick="mobilePageScrollToAnchor(this)" >Step7: Start Jupyter Notebook through Browser.</a></li><li><a href="#step8-final-step" onclick="mobilePageScrollToAnchor(this)" >Step8: Final step</a></li></ul></li><li><a href="#fow-windows-1" onclick="mobilePageScrollToAnchor(this)" >Fow Windows:</a></li></ul>
+
                                     
                                 
                             </li>
@@ -237,33 +240,92 @@
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         
-                            <a href="." >PEX workshop 2024</a>
+                            <a href="." >Prerequisite</a>
                         
                     </h1>
                 </div>
 
-                <div class="body-inner">
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            <section class="normal markdown-section">
-                                
-                                    <h1 id="">PEX workshop 2024</h1>
-                                
+                <div class="body-inner"><div class="page-wrapper" tabindex="-1" role="main">
+    
 
-                                <br />
-                            </section>
+    <div class="page-inner">
+        <div id="book-search-results">
+            <div class="search-noresults">
+                <section class="normal markdown-section">
+                    
+                        <h1 id="/jekyll/Prerequisite">Prerequisite</h1>
+                    
 
-                            <!-- Slightly Modified from _layouts/home.html -->
+                    <p>In this workshop, we will use <a href="https://jupyter.org/">Jupyter Notebook</a> as the GUI to do some exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contains in a <a href="https://www.docker.com">Docker image</a>. The docker image contains everything needed to run a piece of software, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use <a href="https://code.visualstudio.com/">VScode</a> to acess the docker container which is a running instance of a docker image.</p>
 
-<div id="book-search-input-inside" role="search">
-    <input type="text" placeholder="Type to search" />
-</div>
+<p>You may have a question that Why do we use this format for the workshop? The answer is:</p>
 
+<p>Because it provides a consistent, isolated, and portable way for all participants. This reduces setup time, minimizes compatibility issues, and allows everyone to focus on the detailed physics and do not waste time on configure the setup of environment.</p>
 
-                            <div id="book-search-results">
-                                <div class="search-noresults">
-                                    
-                                </div><div class="search-results">
+<p>In this page, we provide the instructions about how to install the Docker and Vscode step by step both for <strong>Windows</strong> and <strong>Mac</strong>.</p>
+
+<h2 id="fow-windows">Fow Windows:</h2>
+
+<h3 id="step1-install-docker">Step1: Install Docker</h3>
+
+<p>In the <a href="https://www.docker.com/">Docker official website</a> download the window version which is mark by red line as the following picture and then install the docker according to the instruction.</p>
+
+<p><img src="../assets/win_step1.png" alt="win_step1" style="width: 60%;" /></p>
+
+<hr />
+<h3 id="step2-install-vscode">Step2: Install VScode</h3>
+
+<p>In the <a href="https://code.visualstudio.com/">VScode official website</a> download the window version which is mark by red line as the following picture and then install the VScode according to the instruction.</p>
+
+<p><img src="../assets/win_step2.png" alt="win_step2" style="width: 60%;" /></p>
+
+<hr />
+<h3 id="step3-install-docker-extension-in-vscode">Step3: Install Docker extension in VScode</h3>
+
+<p>After the successful installation of VScode, run the VScode. In the VScode, click the icon of ‘Extensions’. In the search bar type “docker” and then install the “docker extension” in VScode. This step in shown in the following picture. Through the “docker extension”, we can access the docker container direclty by VScode.</p>
+
+<p><img src="../assets/win_step3.png" alt="win_step3" style="width: 60%;" /></p>
+
+<hr />
+<p><strong>You can do the following steps by yourself or We can do the them together in the first time of hand-on session.</strong></p>
+
+<h3 id="step4-download-the-pex2024-image-in-docker-desktop">Step4: Download the pex2024 image in docker desktop</h3>
+
+<p>Run the docker program and then click the “Images” icon. In the search bar, type “pex2024” then you will see the coresponding image. Click the ‘pull’ botton to automatically install the coresponding image.<br />
+This image contains all the necessary materials which are used for the hand-on sessions.</p>
+
+<p><img src="../assets/win_step4.png" alt="win_step4" style="width: 60%;" /></p>
+
+<h3 id="step5-run-the-pex2024-container-to-create-the-container">Step5: Run the pex2024 container to create the container</h3>
+
+<p>As presented by the following picture, in the this step:<br />
+1) In the VScode, click the ‘docker’ icon, then in the left, there are related items.<br />
+2) In the ‘IMAGES’, find the ‘docker.io/wuhsh/pex2024’ image, which is downloaded in step4, and then click the ‘&gt;’ botton.<br />
+3) Right click ‘20241117’, which is the tag for the image.<br />
+4) Click ‘Run Interactive’ that a container will be automatically build based on this image.<br /></p>
+
+<p><img src="../assets/win_step5.png" alt="win_step5" style="width: 60%;" /></p>
+
+<h3 id="step6-launch-the-container">Step6: Launch the container.</h3>
+
+<p>As presented by the following picture, in the this step:<br />
+1) In the ‘CONTAINERS’ part of VScode, right click our container ‘wuhsh/pex2024:20241117’.<br />
+2) Select the ‘Open in Browser’.</p>
+
+<p><img src="../assets/win_step6.png" alt="win_step6" style="width: 60%;" /></p>
+
+<h3 id="step7-start-jupyter-notebook-through-browser">Step7: Start Jupyter Notebook through Browser.</h3>
+<p>Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the ‘TERNIMAL’ part of VScode, as shown in the left, and copy the token and then paste it to the browser. 
+<img src="../assets/win_step7.png" alt="win_step7" style="width: 100%;" /></p>
+
+<h3 id="step8-final-step">Step8: Final step</h3>
+<p>If everything go well, in the browser you can see as the following picture. All of our hand-on sessions are based the jupyter nootbook.
+<img src="../assets/win_step8.png" alt="win_step8" style="width: 100%;" /></p>
+
+<h2 id="fow-windows-1">Fow Windows:</h2>
+<p>The installation for Mac is similar to Windows, followings are the steps:</p>
+</section>
+            </div><div class="search-results">
     <div class="has-results">
         <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
         <ul class="search-results-list"></ul>
@@ -272,8 +334,62 @@
         <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
     </div>
 </div></div>
-                        </div>
-                    </div>
+    </div>
+</div>
+
+<!-- introduce mathjax support -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script
+  type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+<!-- introduce per-page mermaid support -->
+
+
+<!-- introduce mathjax support -->
+<script>
+    function fixes_chrome_anchors() {
+        let chrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && chrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    }
+
+    if (document.readyState === "loading") {
+        // Loading hasn't finished yet
+        document.addEventListener("DOMContentLoaded", fixes_chrome_anchors);
+    } else {
+        // `DOMContentLoaded` has already fired
+        fixes_chrome_anchors();
+    }
+</script>
+
+
+                        <a href="/pex2024/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: PEX workshop 2024">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    
+
+                    
+                        <a href="/pex2024/jekyll/2024-09-01-Lecture1.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Lecture 1">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    
                 </div>
             </div>
 
@@ -286,14 +402,12 @@
         "level": "1.1",
         "depth": 1,
         
-
-        
         "next": {
-            "title": "Prerequisite",
+            "title": "Lecture 1",
             "level": "1.2",
             "depth": 1,
-            "path": "_posts/2024-08-01-Prerequisite.md",
-            "ref": "_posts/2024-08-01-Prerequisite.md",
+            "path": "_posts/2024-09-01-Lecture1.md",
+            "ref": "_posts/2024-09-01-Lecture1.md",
             "articles": []
         },
         
@@ -385,8 +499,8 @@
         "gitbook": "*"
     },
     "file": {
-        "path": "assets/search.html",
-        "mtime": "",
+        "path": "_posts/2024-08-01-Prerequisite.md",
+        "mtime": "2024-08-01 00:00:00 +0200",
         "type": "markdown"
     },
     "gitbook": {

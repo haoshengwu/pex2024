@@ -11,7 +11,7 @@ Welcome to the Power EXhasut (**PEX**) Modelling Workshop 2024, which is the pra
 
 The main aim of this workshop is to help you develop a deeper knowledge on a specific topic. We selected PEX mostly based on our specific research interest, so we make sure we can provide our best possible support on it.
 
-This workshop consists of three segments, each including a lecture part (~1 hour) and a Hands-on session (~1.5 hour). In the lecture part, the edge plasma physics is introduced.  In the hands-on session, students, together with Dr. Haosheng Wu, will carry out practical exercises. An additional Preparation session is also provided that help the students install necessary materials/softwares, which are used in this workshop.
+This workshop consists of three segments, each including a lecture part (~40 mins) and a Hands-on session (~2 hour). In the lecture part, the edge plasma physics is introduced.  In the hands-on session, students, together with Dr. Haosheng Wu, will carry out practical exercises. An additional Preparation session is also provided that help the students install necessary materials/softwares, which are used in this workshop.
 
 After this workshop, every student will be assigned ONE out of FIVE projects, which they are expected to complete independently. All the necessary knowledges and tools are provided is this workshop. More detals about the finnal project can be found in the Final Project page.
 
