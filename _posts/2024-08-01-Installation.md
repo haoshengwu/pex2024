@@ -1,12 +1,12 @@
 ---
-title: Prerequisite
+title: Intallation
 author: Haosheng Wu and Yilin Wang
 date: 2024-08-01
 category: Jekyll
 layout: post
 ---
 
-In this workshop, we will use [Jupyter Notebook](https://jupyter.org/) as the GUI to do some exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contains in a [Docker image](https://www.docker.com). The docker image contains everything needed to run a piece of software, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use [VScode](https://code.visualstudio.com/) to acess the docker container which is a running instance of a docker image.
+In this workshop, we will use [Jupyter Notebook](https://jupyter.org/) as the interface to do the exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contained in a [Docker image](https://www.docker.com). The docker image contains everything, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use [VScode](https://code.visualstudio.com/) to acess the docker container which is a running instance of a docker image.
 
 You may have a question that Why do we use this format for the workshop? The answer is:
 
