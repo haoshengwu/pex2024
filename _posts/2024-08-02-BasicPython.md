@@ -63,7 +63,7 @@ def add(a, b):
     return a + b
 
 sum = add(5, 7)
-print("The sum is:", result)
+print("The sum is:", sum)
 ```
 
 ## 4. Array
