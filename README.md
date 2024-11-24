@@ -13,13 +13,13 @@ The main aim of this workshop is to help you understand the important and basic 
 
 This workshop consists of three times, each time including a lecture part (~40 mins) and a Hands-on session (~2 hour). In the lecture part, the basic knowledge about edge plasma physics and the power exhaust problem are introduced.  In the hands-on session, students, together with Dr. Haosheng Wu, will carry out some practical exercises. An additional Preparation session is also provided that help the students install necessary materials/softwares, which are used in this workshop.
 
-After this workshop, every student will be assigned ONE out of FIVE projects, which they are expected to complete independently. All the necessary knowledges and tools for the projects are provided is this workshop. More detals about the finnal project can be found in the Final Project page.
+After this workshop, every student will be assigned ONE out of FIVE projects, which they are expected to complete independently. All the necessary knowledge and tools for the projects are provided in this workshop. More details about the final project can be found in the Final Project page.
 
 Any questions/comments/suggestions/feedbacks are welcome and please feel free to contact haosheng.wu@polito.it .
 
 ## Angenda
 
-The students will be divied into two group. The angenda is the following:
+The students will be divided into two groups. The agenda is as follows:
 
 #### GROUP A
 <div class="table-wrapper" markdown="block">
@@ -27,9 +27,9 @@ The students will be divied into two group. The angenda is the following:
 |DATE|ARRANGEMENT|TIME|CONTENT|
 |:-:|:-:|:-:|:-:|
 |2024-11-19|Preparation session|14:00-14:30|Introduction|
-|2024-11-26|Lecture 1 + Hand-on session 1|11:00-14:30|First time of PEX workshop|
-|2024-12-16|Lecture 2 + Hand-on session 2|14:30-17:30|Second time of PEX workshop|
-|2025-01-08|Lecture 3 + Hand-on session 3|14:30-17:30|Third time of PEX workshop|
+|2024-11-26|Lecture 1 + Hand-on session 1|11:30-14:30|First session of the PEX workshop|
+|2024-12-16|Lecture 2 + Hand-on session 2|14:30-17:30|Second session of the PEX workshop|
+|2025-01-08|Lecture 3 + Hand-on session 3|14:30-17:30|Third session of the PEX workshop|
 
 </div>
 
@@ -39,25 +39,25 @@ The students will be divied into two group. The angenda is the following:
 |DATE|ARRANGEMENT|TIME|CONTENT|
 |:-:|:-:|:-:|:-:|
 |2024-11-19|Preparation session|14:00-14:30|Introduction|
-|2024-12-10|Lecture 1 + Hand-on session 1|11:00-14:30|First time of PEX workshop|
-|2024-12-17|Lecture 2 + Hand-on session 2|11:00-14:30|Second time of PEX workshop|
-|2025-01-10|Lecture 3 + Hand-on session 3|13:00-16:00|Third time of PEX workshop|
+|2024-12-10|Lecture 1 + Hand-on session 1|11:30-14:30|First session of the PEX workshop|
+|2024-12-17|Lecture 2 + Hand-on session 2|11:30-14:30|Second session of the PEX workshop|
+|2025-01-10|Lecture 3 + Hand-on session 3|13:00-16:00|Third session of the PEX workshop|
 
 </div>
 
 ## Prerequisite
 
-1. Basic knowledge about edge plasma physics, which is introduced by Prof. Subba in NFRP lecutres, is essential before attending this workshop. 
+1. Basic knowledge about edge plasma physics, introduced by Prof. Subba in NFRP lectures, is essential before attending this workshop. 
 
-2. In the workshop, there are Hand-on sessions for students that a laptop is mandatory. All the materials have been tested in both Windows and Mac systems. If you use other operation systems, e.g. Linux(Ubuntu), please let me know haosheng.wu@polito.it .
+2. In the workshop, there are hands-on sessions for students, and a laptop is mandatory. All the materials have been tested on both Windows and Mac systems. If you use other operating systems, e.g., Linux (Ubuntu), please let me know at haosheng.wu@polito.it .
 
-3. In the Hand-on sessions, all the the exercises are based on [Jupyter Notebook](https://jupyter.org/) with [Python](https://www.python.org/) kernel. Python at a fundamental level is prefered. If you are a new user of Python, some good introductions about Python can be found here [CS50:python](https://cs50.harvard.edu/x/2024/weeks/6/) and [CS61A:week1&2](https://cs61a.org/). There is no complex programming in the hand-on sessions, only very simple usages are needed, e.g. use python to perform '+-*/' calculation. There is also a 'Basic_python' page introduce basice python concept.
+3. In the Hand-on sessions, all the exercises are based on [Jupyter Notebook](https://jupyter.org/) with [Python](https://www.python.org/) kernel. Python at a fundamental level is preferred. If you are a new user of Python, some good introductions about Python can be found here [CS50:Python](https://cs50.harvard.edu/x/2024/weeks/6/) and [CS61A:Week 1 & 2](https://cs61a.org/). There is no complex programming in the hand-on sessions, only very basic usage is needed, e.g. use Python to perform '+-*/' a calculation. There is also a 'BasicPython' page introduce the basic python usage.
 
-4. All the nessary materials, e.g. simulation data, numerical tool, softwares, Python environment etc., for the Hand-on sessions are provided by A [Docker](https://www.docker.com) image. The installation of the materials are provied in the 'Installation' page before the first time of the workshop. 
+4. All the necessary materials, e.g., simulation data, numerical tools, software, Python environment, etc., for the hands-on sessions are provided via a [Docker](https://www.docker.com) image. The installation steps for these materials are provided on the 'Installation' page. Students attending the PEX workshop should install Docker and VS Code on their own laptops (follow Steps 1 to 3 on the 'Installation' page).
 
 
 ## License
 
-This work is open sourced under the MIT License.
+This project incorporates code from [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook), licensed under the Apache License 2.0.
 
 Copyright 2024 Haosheng Wu

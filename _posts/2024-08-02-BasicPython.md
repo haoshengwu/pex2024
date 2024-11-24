@@ -85,7 +85,7 @@ print(array[2,:])
 print(array[3,:])
 print(array[4,:])
 
-# Print each colmn
+# Print each column
 print(array[:,0])
 print(array[:,1])
 ```

@@ -1,5 +1,5 @@
 ---
-title: Intallation
+title: Installation
 author: Haosheng Wu and Yilin Wang
 date: 2024-08-01
 category: Jekyll
@@ -14,18 +14,18 @@ Because it provides a consistent, isolated, and portable way for all participant
 
 In this page, we provide the instructions about how to install the Docker and Vscode step by step both for **Windows** and **Mac**.
 
-## Fow Windows:
+## For Windows:
 
 ### Step1: Install Docker
 
-In the [Docker official website](https://www.docker.com/) download the Window version which is mark by red line as the following picture and then install the docker according to the instruction.<br>
+In the [Docker official website](https://www.docker.com/) download the Window version which is marked by red line as the following picture and then install the docker according to the instruction.<br>
 
 ![win_step1](/pex2024/assets/win_step1.png){: style="width: 60%;" }
 
 ***
 ### Step2: Install VScode
 
-In the [VScode official website](https://code.visualstudio.com/) download the Window version which is mark by red line as the following picture and then install the VScode according to the instruction.<br>
+In the [VScode official website](https://code.visualstudio.com/) download the Window version which is marked by red line as the following picture and then install the VScode according to the instruction.<br>
 
 ![win_step2](/pex2024/assets/win_step2.png){: style="width: 60%;" }
 
@@ -41,7 +41,7 @@ After the successful installation of VScode, run the VScode. In the VScode, clic
 
 ### Step4: Download the pex2024 image in docker desktop
 
-Run the docker program and then click the "Images" icon. In the search bar, type "pex2024" then you will see the coresponding image. Click the 'pull' botton to automatically install the coresponding image.<br>
+Run the docker program and then click the "Images" icon. In the search bar, type "pex2024" then you will see the corresponding image. Click the 'pull' botton to automatically install the corresponding image.<br>
 This image contains all the necessary materials which are used for the hand-on sessions.<br> 
 
 ![win_step4](/pex2024/assets/win_step4.png){: style="width: 60%;" }
@@ -64,28 +64,28 @@ As presented by the following picture, in the this step:<br>
 
 ***
 ### Step7: Start Jupyter Notebook through Browser.
-Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the 'TERNIMAL' part of VScode, as shown in the left, and copy the token and then paste it to the browser.<br>
+Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the 'TERMINAL' part of VScode, as shown in the left, and copy the token and then paste it to the browser.<br>
 ![win_step7](/pex2024/assets/win_step7.png){: style="width: 100%;" }
 
 ***
 ### Step8: Final step
-If everything go well, in the browser you can see as the following picture. All of our hand-on sessions are based the jupyter nootbook.<br>
+If everything goes well, in the browser you can see as the following picture. All of our hand-on sessions are based on the jupyter notebook.<br>
 ![win_step8](/pex2024/assets/win_step8.png){: style="width: 100%;" }
 
 
-## Fow Mac:
+## For Mac:
 The installations for Mac is similar to Windows, followings are the steps:<br>
 
 ### Step1: Install Docker
 
-In the [Docker official website](https://www.docker.com/) download the correct Mac version according to your CPU, which is mark by red line as the following picture and then install the docker according to the instruction.<br>
+In the [Docker official website](https://www.docker.com/) download the correct Mac version according to your CPU, which is marked by red line as the following picture and then install the docker according to the instruction.<br>
 
 ![mac_step1](/pex2024/assets/mac_step1.png){: style="width: 60%;" }
 
 ***
 ### Step2: Install VScode
 
-In the [VScode official website](https://code.visualstudio.com/) download the Mac version which is mark by red line as the following picture and then install the VScode according to the instruction.<br>
+In the [VScode official website](https://code.visualstudio.com/) download the Mac version which is marked by red line as the following picture and then install the VScode according to the instruction.<br>
 
 ![mac_step2](/pex2024/assets/mac_step2.png){: style="width: 60%;" }
 
@@ -101,7 +101,7 @@ After the successful installation of VScode, run the VScode. In the VScode, clic
 ***
 
 ### Step4: Download the pex2024 image in docker desktop
-Run the docker program and then click the "Images" icon. In the search bar, type "pex2024" then you will see the coresponding image. Click the 'pull' botton to automatically install the coresponding image.<br>
+Run the docker program and then click the "Images" icon. In the search bar, type "pex2024" then you will see the corresponding image. Click the 'pull' botton to automatically install the corresponding image.<br>
 This image contains all the necessary materials which are used for the hand-on sessions.<br>
 ![mac_step4](/pex2024/assets/mac_step4.png){: style="width: 60%;" }
 
@@ -128,5 +128,5 @@ Once you successfully open the container in your browser, you will see the right
 
 ***
 ### Step8: Final step
-If everything go well, in the browser you can see as the following picture. All of our hand-on sessions are based the jupyter nootbook.<br>
+If everything goes well, in the browser you can see as the following picture. All of our hand-on sessions are based on the jupyter notebook.<br>
 ![mac_step8](/pex2024/assets/mac_step8.png){: style="width: 100%;" }
