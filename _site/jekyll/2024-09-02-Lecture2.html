@@ -278,14 +278,27 @@
                         <h1 id="/jekyll/Lecture2">Lecture 2</h1>
                     
 
-                    <p>In this lecture we will focus on:</p>
+                    <p>This page present the major content (e.g. important concetps) during the lecture part of the second session, serving as a recap. <br /></p>
 
-<ol>
-  <li>Target profiles</li>
-  <li>Plasma pressure</li>
-  <li>Important Atomic reactions</li>
-  <li>Radiation</li>
-</ol>
+<h4 id="1-atomic-database-in-edge-plasma">1. Atomic database in edge plasma</h4>
+
+<p>In the edge plasma, various physical processes occur, including atomic reactions between plasma and neutral particles. Based on the regions where these reactions take place, they can be classified into two types: 1. Volume processes and 2. Plasma-Wall Interaction (PWI), also referred to as Plasma-Surface Interaction (PSI) or Plasma-Material Interaction (PMI).<br /></p>
+
+<p>For volume processes, the reactions primarily involve hydrogen or deuterium, as well as impurities such as neon, argon, and tungsten. For hydrogen or deuterium, the most important are ionization, recombination and charge exchange. For impurities, except ionization, recombination, there are also radiaions including line radiation and Bremsstrahlung radiation.<br /></p>
+
+<h4 id="2-fluid-plasma-transport">2. Fluid plasma transport</h4>
+
+<p>The fluid description of edge plasma transport is widely used in the research community. The fluid transport equations, known as the Braginskii equations, are derived from the Boltzmann transport equation. The Boltzmann transport equation provides a kinetic description of particle transport. By applying certain assumptions and performing mathematical integrations, the fluid plasma equations (Braginskii equations) are obtained. The physical meaning of Braginskii equations are the conservation equations for particle, momentum and electron and ion energy.<br /></p>
+
+<p>For 2D codes, e.g. SOLPS-IETR, UEDGE, SOLEDGE2D, EDGE2D etc, only the parallel momentum is solved. Both of them are large-scale code that have been in development for over 40 years.<br /></p>
+
+<h4 id="3-kinetic-neutral-particle-transport">3. Kinetic neutral particle transport</h4>
+
+<p>In the Braginskii equations, source terms arise from collisions between plasma and neutral particles. For example, processes such as ionization, recombination, and charge exchange act as sources or sinks for particles, momentum, and energy. The source terms are provided by the kinetic description of the particle transport. A widely used code is called EIRENE.<br /></p>
+
+<p>Even though EIRENE is highly complex, its main idea is simple: it uses the Monte Carlo method to solve the Boltzmann equation within a given domain. For boundary plasma modeling, this domain includes the vacuum vessel, which encompasses the plasma region and the surrounding vacuum up to the solid surfaces.<br /></p>
+
+<p>For example, neutral hydrogenic atoms D, neutral hydrogenic molecules D2, and short-lived molecular ions D2+ are considered. The sources of these particles include gas puffing, surface recycling, and volumetric recombination. Neutral particles move along straight lines until they undergo an event that may change their direction and/or terminate their existence. Such events include ionization, pumping, neutral-plasma collisions, or reflection at material surfaces. After recording a large number of particle histories, the resulting particle distribution is analyzed.<br /></p>
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -467,7 +480,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-11-25 22:20:53 +0100"
+        "time": "2024-12-15 19:09:34 +0100"
     },
     "basePath": "/pex2024",
     "book": {
