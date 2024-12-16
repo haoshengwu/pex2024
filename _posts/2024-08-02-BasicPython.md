@@ -89,3 +89,20 @@ print(array[4,:])
 print(array[:,0])
 print(array[:,1])
 ```
+
+## 5. Power and Square of an array
+
+```markdown
+# Import the numpy library as the name of np
+import numpy as np
+
+array = np.array([1, 2, 3, 4, 5, 6])
+
+# Calculate square
+power_array = np.power(array,2)
+print(power_array)
+
+# Calculate square root
+square_array = np.power(power_array, 0.5)
+print(square_array)
+```

@@ -106,7 +106,7 @@
                                 </a>
                                 
                                     
-                                        <ul><li><a href="#1-print-hello-world" onclick="mobilePageScrollToAnchor(this)" >1. Print ‘Hello World!’</a></li><li><a href="#2-simple-calculation" onclick="mobilePageScrollToAnchor(this)" >2. Simple calculation</a></li><li><a href="#3-function" onclick="mobilePageScrollToAnchor(this)" >3. Function</a></li><li><a href="#4-array" onclick="mobilePageScrollToAnchor(this)" >4. Array</a></li></ul>
+                                        <ul><li><a href="#1-print-hello-world" onclick="mobilePageScrollToAnchor(this)" >1. Print ‘Hello World!’</a></li><li><a href="#2-simple-calculation" onclick="mobilePageScrollToAnchor(this)" >2. Simple calculation</a></li><li><a href="#3-function" onclick="mobilePageScrollToAnchor(this)" >3. Function</a></li><li><a href="#4-array" onclick="mobilePageScrollToAnchor(this)" >4. Array</a></li><li><a href="#5-power-and-square-of-an-array" onclick="mobilePageScrollToAnchor(this)" >5. Power and Square of an array</a></li></ul>
 
                                     
                                 
@@ -356,6 +356,22 @@ print(array[4,:])
 print(array[:,0])
 print(array[:,1])
 </code></pre></div></div>
+
+<h2 id="5-power-and-square-of-an-array">5. Power and Square of an array</h2>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Import the numpy library as the name of np</span>
+import numpy as np
+
+array = np.array([1, 2, 3, 4, 5, 6])
+
+<span class="gh"># Calculate square</span>
+power_array = np.power(array,2)
+print(power_array)
+
+<span class="gh"># Calculate square root</span>
+square_array = np.power(power_array, 0.5)
+print(square_array)
+</code></pre></div></div>
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -537,7 +553,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-12-15 19:09:34 +0100"
+        "time": "2024-12-16 17:03:11 +0100"
     },
     "basePath": "/pex2024",
     "book": {
