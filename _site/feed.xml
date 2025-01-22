@@ -1,158 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2024-12-16T17:03:11+01:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
-</subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Q&amp;amp;A</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-11-Q&A.html" rel="alternate" type="text/html" title="Q&amp;amp;A" /><published>2024-09-11T00:00:00+02:00</published><updated>2024-09-11T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Q&amp;A</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-11-Q&amp;A.html"><![CDATA[<p>Following are the Questions and the Answers:<br /></p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Following are the Questions and the Answers:]]></summary></entry><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-10T00:00:00+02:00</published><updated>2024-09-10T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html"><![CDATA[<p>Following are the Five projects and the students can visit their coresponding project.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2025-01-22T07:10:19+01:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2024</title><subtitle>Power Exhaust modelling Workshop 2024
+</subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Q&amp;amp;A</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-11-Q&A.html" rel="alternate" type="text/html" title="Q&amp;amp;A" /><published>2024-09-11T00:00:00+02:00</published><updated>2024-09-11T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Q&amp;A</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-11-Q&amp;A.html"><![CDATA[<p>Following are the Questions and the Answers:<br /></p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Following are the Questions and the Answers:]]></summary></entry><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-10T00:00:00+02:00</published><updated>2024-09-10T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html"><![CDATA[<p>The projects have already been uploaded to the PEX2024 Docker image. Students can update the Docker image to access the final projects.</p>
 
-<h2 id="project-one">Project One</h2>
+<p>Additionally, the projects are listed here without the accompanying plots.</p>
 
-<h3 id="comparion-between-solps-iter-simulations-with-the-two-point-models-for-eu-demo-divertor-regimes">Comparion between SOLPS-ITER simulations with the Two-Point models for EU-DEMO divertor regimes.</h3>
+<h2 id="project-one-eu-demo-power-exhaust-modelling">Project One: EU-DEMO Power exhaust modelling</h2>
 
-<h3 id="questions">Questions:</h3>
+<p>In this project, an EU-DEMO 2D power exhaust modelling case is provided. The deuterium, helium and argon are considered. The totol power entering the Scrape-Off Layer is 150MW. Please answer the following question according to the corespoing plots from the modelling results.<br /></p>
 
-<p>1) The profiles of the Electron Density ne and Electron temperature are shown in Figure. Could you please estimate the Lambda_n and Lambda_T by hand.</p>
+<p><strong>Question 1</strong>: Above plot it this computational mesh used for the EU-DEMO power exhaust modelling. Please estimate the major radius and minius radius and explain the reason.<br /></p>
 
-<p>2) Based on the currnet OMP profiles, if the divertor is in the low recycling regime, according to the 2PM, what the OT divertor target profiles should be?</p>
+<p><strong>Question 2</strong>: Above plot is the poloidal and toroidal magnetic field. If the Temperature is assumed to be 250ev, please estimated the power decay length ${\lambda}_{q}$ and explain the reason.<br /></p>
 
-<p>3) How to calculate plasma pressure at the OMP and OT? Could you please plot the pressure profles according to OMP and OT ne&amp;Te profiles.</p>
+<p><strong>Question 3</strong>: If we assume that most of the power transport from the upstream to the outer target, please estimated the power flux at the outer target without volumetric power dissipation and explain the reason. In order to avoid the power exhaust problem, how much power need to be dissipated.<br /></p>
 
-<p>4) Is there pressure drop in this case? what is the divertor regime for this case? If the divertor will enter into detchment, what will happen about the pressure?</p>
+<p><strong>Question 4</strong>: The total power flux at the outer target include the plasma contribution and the surface recombination. In the following ‘code’ part, <strong>ne3dr</strong> is the electron density profiles, <strong>te3dr</strong> is the temperature profiles, <strong>dsr</strong> is the coordinates along the outer target. 1) Please calcualte and plot the total power flux <strong>ft3dr</strong> at the outer target. The scripts for plot is already provied in the following and you need to finish the calculation of <strong>ft3dr</strong>. 2) Explain whether the power exhaust problem is solved or not for this case. <br /></p>
 
-<blockquote class="block-tip">
-  <h3 id="hints">Hints</h3>
+<p><strong>Question 5</strong> In the modelling results, the helium particles is considered. Explain why we consider the helium. We also consider the argon impurity, please explain why the Argon impurity is considered.<br /></p>
 
-  <p>We already discussed the divertor regimes: low recycling regime, high recycling regime and the detachment.
-The key parameters for 2PM is the density, connection length, temperature. How can we make a connection between 2PM values and the simulated profiles?</p>
-</blockquote>
+<h2 id="project-two-eu-demo-power-exhaust-modelling">Project Two: EU-DEMO Power exhaust modelling</h2>
 
-<h2 id="project-two">Project Two</h2>
+<p>In this project, an EU-DEMO 2D power exhaust modelling case is provided. The deuterium, helium and argon are considered. The totol power entering the Scrape-Off Layer is 150MW. Please answer the following question according to the corespoing plots from the modelling results.<br /></p>
 
-<h3 id="evaluation-the-dtt-divertor-performan-with-the-argon-and-neon-impurity-seeding">Evaluation the DTT divertor performan with the Argon and Neon impurity seeding</h3>
+<p><strong>Question 1</strong>: Based on the above plots, including the computational mesh and the poloidal and toroidal magnetic field distribution, please estimate the safety factor $q$ and the connection length, and explain their physical meanings.<br /></p>
 
-<h3 id="questions-1">Questions:</h3>
+<p><strong>Question 2</strong>: Please estimate the plasma current that generates the poloidal magnetic field, and explain why the poloidal magnetic field is close to zero near the X-point.<br /></p>
 
-<p>Impurity seeding are necessary for future tokamak high power scenario operation.</p>
+<p><strong>Question 3</strong>: Write down the Two-Point Model and explain the physical meaning of each equation.<br /></p>
 
-<ol>
-  <li>
-    <p>Why we selected Argon or Neon as impurity seeding?</p>
-  </li>
-  <li>
-    <p>The q_para at the OMP is shown in the figure. Could you please estimated the lambda_q by hand for the Argon and Neon cases?</p>
-  </li>
-  <li>
-    <p>If there is no impurity seeding, could you estimated the q_para at the Outer divertor target?</p>
-  </li>
-  <li>
-    <p>Could you please compare the q_para in Q3 with the q_para for Argon and Neon case. Could you please estimated how much power are radiated?</p>
-  </li>
-</ol>
+<p><strong>Question 4</strong>: The above the plots show the Outer Midplane profiles and Outer Target profiles. In the following ‘code’ part, <strong>ne3da</strong> is the electron density profiles at Outer Midplane (OMP), <strong>te3da</strong> is the electron temperature profiles at OMP, <strong>dsa</strong> is the coordinates along the OMP, <strong>ne3dr</strong> is the electron density profiles at Outer Target (OT), <strong>te3dr</strong> is the OT temperature profiles, <strong>dsr</strong> is the coordinates along the outer target. 1) Please calculate and plot the electron pressure at the OMP <strong>pe3da</strong> and electron pressure at the OT <strong>pe3dr</strong> mapping to OMP. The scripts for plot is already provied in the following and you need to finish the calculations. 2) Please explain how the <strong>pe3dr</strong> is mapped to the OMP. 3) Please calculate the electron pressure drop between OMP and OT. 4) For divertor, there are sheath-limited regime, conduction-limited regime and detachment. Please analysis the divertor regime in this case and explain the reason.<br /></p>
 
-<blockquote class="block-tip">
-  <h3 id="hints-1">Hints</h3>
+<h2 id="project-three-dtt-power-exhaust-modelling">Project Three: DTT Power exhaust modelling</h2>
 
-  <p>The atom number for Neon is 10, it means there are 10 (DIECI) types Neon ions from Neon+ to Neon10+.
-For Argon, the atom number is 18, it means there are (DICIOTTO) types Aron ions from Argon+ to Argon18+.</p>
+<p>In this project, a DTT 2D power exhaust modelling case is provided. The deuterium and another impurity are considered. The total power entering the Scrape-Off Layer is 30MW. Please answer the following question according to the corespoing plots from the modelling results.<br /></p>
 
-</blockquote>
+<p><strong>Question 1</strong>: Based on the above plots, including the computational mesh and the poloidal and toroidal magnetic field distribution, please estimate the safety factor $q$ and the connection length, and explain their physical meanings. <br /></p>
 
-<h2 id="project-three">Project Three</h2>
+<p><strong>Question 2</strong>: If the Temperature is assumed to be 150 eV, please estimate the power flux width  ${\lambda}_{q}$ and explain the reason. <br /></p>
 
-<h3 id="comparison-between-solps-iter-and-the-lengyel-model-for-dtt-n-seeding-plasma">Comparison between SOLPS-ITER and the Lengyel Model for DTT N seeding plasma</h3>
+<p><strong>Question 3</strong>: The modeling results are based on the fluid plasma transport equations. If the upsteam density is 6e19 ${m}^{-3}$, explain why the fluid method is reasonable for describing plasma transport in this case.<br /></p>
 
-<h3 id="problem-to-solve">Problem to Solve:</h3>
+<p><strong>Question 4</strong>: The above plots show the electron density, electron temperature, and line radiation distributions. 1) Explain what line radiation is. 2) Estimate the total line radiation. 3) Estimate the peak value of the total power flux (including plasma contribution and surface recombination contribution) and explain the reason. 4) Determine whether the power exhaust problem is resolved in this case, and explain your reason.<br /></p>
 
-<p>For full impurity model in SOLPS simulations, the running time is too long. There are simple models to predict.
-We need to figure out their performance.</p>
+<h2 id="project-four-dtt-power-exhaust-modelling">Project Four: DTT Power exhaust modelling</h2>
 
-<p>1.</p>
+<p>In this project, a DTT 2D power exhaust modelling case is provided. The deuterium and another impurity are considered. The totol power entering the Scrape-Off Layer is 30MW. Please answer the following question according to the corespoing plots from the modelling results. <br /></p>
 
-<p>2.</p>
+<p><strong>Question 1</strong>: The above plot shows the third fluxtube in the Scrape-Off Layer in a computational mesh. Please explian the physical meaning of the fluxtube.<br /></p>
 
-<p>3.</p>
+<p><strong>Question 2</strong>: The plasma transports from the upstream to the targets. Please: 1) Indicate where the upstream region is. 2) Explain why the plasma transports from the upstream to the targets. 3)Estimate the fluid plasma velocity in the upstream position.<br /></p>
 
-<p>4.</p>
+<p><strong>Question 3</strong>: In the lecture, we introduced volumetric atomic reactions. Please list the three most important types of reactions and explain what they are.<br /></p>
 
-<blockquote class="block-tip">
-  <h3 id="hints-2">Hints</h3>
+<p><strong>Question 4</strong>: Above plots shows electron density and electron temperature along the Second fluxtube in the Scrape-Off layer. 1) Please indicate the regions where the reactions mentioned in Question 3 can occur and explain the reason.2) indicate where is the inner target and where is the ourter target. 3) For divertor, there are sheath-limited regime, conduction-limited regime and detachment. Please analysis the divertor regimes both of the inner divertor and the outer divertor. 4) explain why there are difference between the inner divertor and outer divertor in this flux tube. 5) Please estimate the total power flux (the plasma contribution and surface recombination contribution) at the inner and outer targets in this fluxtube.<br /></p>
 
-  <p>Please remember that in Edge Plasma simulatation, there is alway not accuarate match between Experimens, CODES.
-Even the different codes with the same physical models.</p>
+<h2 id="project-five-power-exhaust-modelling">Project Five: Power exhaust modelling</h2>
 
-</blockquote>
+<p>In this project, three power exhaust modelling cases are provided. Please answer the following question according to the corespoing plots from the modelling results.</p>
 
-<h2 id="project-four">Project Four</h2>
+<p><strong>Question 1</strong>: Shown above are the computational grid plots for three tokamaks/reactors: ITER, EU-DEMO, and DTT. Please identify which plot corresponds to ITER, which to EU-DEMO, and which to DTT, and explain the reason.<br /></p>
 
-<h3 id="comparison-between-solps-iter-and-s-i-krasheninnikovs-detachment-model-for-asdex-upgrade">Comparison between SOLPS-ITER and S. I. Krasheninnikov’s detachment model for ASDEX-Upgrade</h3>
+<p><strong>Question 2</strong>: There are three divertor regimes. Please list them along with the corresponding characteristics of each regime. <br /></p>
 
-<h3 id="problem-to-solve-1">Problem to Solve:</h3>
+<p><strong>Question 3</strong>: The fusion reactor will operate in one of the three divertor regimes. Which regime is it, and why?<br /></p>
 
-<p>Different with the 2PM, there is another detachment model which is proposed by S. I. Krasheninnikov’s.
-In this project, the SOLPS AUG simulations, which have been well validated agasinst experimental datat, 
-will be compared with the S. I. Krasheninnikov’s detachment model.</p>
-
-<ol>
-  <li>
-    <p>What the characteristic of the particle detachment?</p>
-  </li>
-  <li>
-    <p>Based on the provide profiles, could you please plot the pressure drop profiles?</p>
-  </li>
-  <li></li>
-</ol>
-
-<p>4.</p>
-
-<blockquote class="block-tip">
-  <h3 id="hints-3">Hints</h3>
-
-  <p>For S. I. Krasheninnikov’s detachment model, the key paramters are no longer the upstream conditions, 
-but are ***, you should think about how to extract/get such values based on current simulation.</p>
-
-</blockquote>
-
-<h2 id="project-five">Project Five</h2>
-
-<h3 id="evaluate-the-nergy-loss-along-flux-tube-for--dtt">Evaluate the nergy loss along flux tube for  DTT.</h3>
-
-<h3 id="problem-to-solve-2">Problem to Solve:</h3>
-
-<p>Evaluate the energy loss in different divertor regimes</p>
-
-<ol>
-  <li>
-    <p>Could you please estimated the connection length for DTT?</p>
-  </li>
-  <li>
-    <p>The Electron density and Electron temperature profiles along the flux tube are shown. Could you please determine the divertor regime for the two cases and explain the reason.</p>
-  </li>
-  <li>
-    <p>If k0e = 2000, could you please estimated the q_para at the upstream?</p>
-  </li>
-  <li>
-    <p>if γ is 7, could you please estimated the q_para at the outer target? Could you compare the value with Q3 and explain the reason of differences.</p>
-  </li>
-</ol>
-
-<blockquote class="block-tip">
-  <h3 id="hints-4">Hints</h3>
-
-  <p>We now focuse the plasma parameters instead of radial profiles.</p>
-
-</blockquote>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Following are the Five projects and the students can visit their coresponding project.]]></summary></entry><entry><title type="html">Instructions on Final Porject</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html" rel="alternate" type="text/html" title="Instructions on Final Porject" /><published>2024-09-09T00:00:00+02:00</published><updated>2024-09-09T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final_instruction</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html"><![CDATA[<h2 id="what-to-do">What to Do?</h2>
+<p><strong>Question 4</strong>: Above are the plots about electron density and electron temperature along the Second fluxtube in the Scrape-Off layer of one of the three devices. 1) what is the upsteam density, upsteam temperature and upstream fluid plasma velocity? 2) Please esimate the total power flux (plasma contribution and surface recombination contribution) at the inner and outer targets. 3) Are the inner and outer targets are detached or not? Please explain the reason. 4) Please estimate the electron pressure drop from the upstream to the outer target.<br /></p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[The projects have already been uploaded to the PEX2024 Docker image. Students can update the Docker image to access the final projects.]]></summary></entry><entry><title type="html">Instructions on Final Porject</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html" rel="alternate" type="text/html" title="Instructions on Final Porject" /><published>2024-09-09T00:00:00+02:00</published><updated>2024-09-09T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final_instruction</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-09-Final_instruction.html"><![CDATA[<h2 id="what-to-do">What to Do?</h2>
 
 <p>Five projects related to power exhaust modelling are provided. Each project is derived from the ongoing research projects. After the whole workshop, each student will be randomly assigned ONE of the five project. Each project contains several sub-questions. The students are expected to answer these questions independently.</p>
 
+<p>The list containing the names of students and their corresponding project numbers has been updated in the NFRF Dropbox.</p>
+
 <h2 id="how-to-do">How to do?</h2>
 
-<p>During the Hand-on sessions, the students will perform physical analysis related to the power exhaust modelling. Similarly, for the final project, students will perform physical analysis to address the sub-questions of each project. A Jupyter notebook template for each project will be provided in the Docker image, where students will perform their analysis and answer the sub-questions. The project will be submitted by the PDF file, which is directly transformed from the Jupyter Nootbook file.</p>
+<p>During the hands-on sessions, students will conduct physical analyses related to power exhaust modeling. Similarly, for the final project, they will perform physical analyses to address the sub-questions associated with each project. A Jupyter Notebook template for each project will be provided within the Docker image, enabling students to conduct their analyses and answer the sub-questions.</p>
 
-<p>For each project, a final report needs to be submitted, which is directly transformed from the student’s Jupyter Nootbook file into a PDF file. In other word, all the analysis process, e.g. related python scripts, and answers will be together presented. The final report will be evaluated by Prof. Subba.</p>
-
-<p>The final report needs to be upleaded Dropbox.</p>
+<p>The final project submission will be in PDF format, generated directly from the student’s Jupyter Notebook file. In other words, the final report will include the entire analysis process, such as relevant Python scripts and answers to the sub-questions, presented cohesively. The report will be evaluated by Prof. Subba.</p>
 
 <h2 id="when-to-do">When to do?</h2>
 
-<p>The deadline for sumbiting the report is ????.??.??</p>
-
-<p>If you have any questionse, please feel free to contact haosheng.wu@polito.it .</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[What to Do?]]></summary></entry><entry><title type="html">Lecture 3</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-03-Lecture3.html" rel="alternate" type="text/html" title="Lecture 3" /><published>2024-09-03T00:00:00+02:00</published><updated>2024-09-03T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Lecture3</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-03-Lecture3.html"><![CDATA[<p>In this lecture we will focus on:</p>
+<p>Due to unforeseen circumstances, the release of the projects has been delayed. To ensure that students fully understand the project questions, any questions or comments related to the projects are welcome and can be sent to haosheng.wu@polito.it until January 27, 2025. After this date, students can begin working on their projects.</p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[What to Do?]]></summary></entry><entry><title type="html">Lecture 3</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-03-Lecture3.html" rel="alternate" type="text/html" title="Lecture 3" /><published>2024-09-03T00:00:00+02:00</published><updated>2024-09-03T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Lecture3</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-03-Lecture3.html"><![CDATA[<p>In this lecture we will focus on:</p>
 
 <ol>
   <li>Divetor regimes: sheath-limited, conduction-limited, detachment.</li>
