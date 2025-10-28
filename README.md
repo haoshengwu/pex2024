@@ -27,9 +27,9 @@ The students will be divided into two groups. The agenda is as follows:
 |DATE|ARRANGEMENT|TIME|CONTENT|
 |:-:|:-:|:-:|:-:|
 |2024-11-11|Preparation session|11:30-13:30|Introduction|
-|2024-12-02|Lecture 1 + Hand-on session 1|16:00-19:00|First session of the PEX workshop|
-|2024-12-12|Lecture 2 + Hand-on session 2|08:30-11:30|Second session of the PEX workshop|
-|2025-12-15|Lecture 3 + Hand-on session 3|16:00-19:00|Third session of the PEX workshop|
+|2024-12-02|Lecture 1 + Hand-on session 1|16:00-19:00|First time|
+|2024-12-12|Lecture 2 + Hand-on session 2|08:30-11:30|Second time|
+|2025-12-15|Lecture 3 + Hand-on session 3|16:00-19:00|Third time|
 
 </div>
 
@@ -39,9 +39,9 @@ The students will be divided into two groups. The agenda is as follows:
 |DATE|ARRANGEMENT|TIME|CONTENT|
 |:-:|:-:|:-:|:-:|
 |2025-11-11|Preparation session|14:00-14:30|Introduction|
-|2025-11-13|Lecture 1 + Hand-on session 1|16:00-19:00|First session of the PEX workshop|
-|2025-12-12|Lecture 2 + Hand-on session 2|16:00-19:00|Second session of the PEX workshop|
-|2026-12-15|Lecture 3 + Hand-on session 3|08:30-11:30|Third session of the PEX workshop|
+|2025-11-13|Lecture 1 + Hand-on session 1|16:00-19:00|First time|
+|2025-12-12|Lecture 2 + Hand-on session 2|16:00-19:00|Second time|
+|2026-12-15|Lecture 3 + Hand-on session 3|08:30-11:30|Third time|
 
 </div>
 

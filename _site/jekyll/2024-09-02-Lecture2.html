@@ -278,27 +278,33 @@
                         <h1 id="/jekyll/Lecture2">Lecture 2</h1>
                     
 
-                    <p>This page present the major content (e.g. important concetps) during the lecture part of the second session, serving as a recap. <br /></p>
+                    <p>This page summarizes the main content of the first lecture and can be used as a recap.<br /></p>
 
 <h4 id="1-atomic-database-in-edge-plasma">1. Atomic database in edge plasma</h4>
 
-<p>In the edge plasma, various physical processes occur, including atomic reactions between plasma and neutral particles. Based on the regions where these reactions take place, they can be classified into two types: 1. Volume processes and 2. Plasma-Wall Interaction (PWI), also referred to as Plasma-Surface Interaction (PSI) or Plasma-Material Interaction (PMI).<br /></p>
+<p>In the edge/divertor region, atomic interactions between the plasma and neutrals happen which affect the plasma transport also the power exhaust.Based on the regions where these reactions take place, they can be classified into two types: 1. Volume Processes and 2. Plasma-Wall Interaction (PWI), also referred to as Plasma-Surface Interaction (PSI) or Plasma-Material Interaction (PMI).<br /></p>
 
-<p>For volume processes, the reactions primarily involve hydrogen or deuterium, as well as impurities such as neon, argon, and tungsten. For hydrogen or deuterium, the most important are ionization, recombination and charge exchange. For impurities, except ionization, recombination, there are also radiaions including line radiation and Bremsstrahlung radiation.<br /></p>
+<h5 id="11-volume-processes">1.1 Volume Processes</h5>
+
+<p>In the edge/divertor region, collisions between neutrals and the plasma drive the volume processes that appear in models as particle, momentum, and power sources/sinks.For hydrogenic species (H/D), the key mechanisms are Ionization, Recombination and Charge Exchange (CX). Ionization creates plasma particles while cooling electrons; Recombination occurs through EIR (electron–ion recombination) and MAR (molecule-assisted recombination), removing ions and adding radiative power loss; CX (Charge eXchange) transfers ion energy and momentum to fast neutrals, which are not magnetically confined and can carry power to walls and pumps.<br /></p>
+
+<p>For impurities (intrinsic, e.g. W, and extrinsic, e.g. Ne/Ar), line radiation is usually the dominant radiative channel, complemented by bremsstrahlung; both depend on species and on $T_e$. Synchrotron emission also exists but is typically a smaller contribution in this context. These processes could cool the edge plasma.<br /></p>
+
+<h5 id="12-plasmawall-interaction-pwi">1.2. Plasma–Wall Interaction (PWI)</h5>
+
+<p>At material surfaces, the mechanisms are very complex. The most important one is the Recycling that ions recombined to neutrals in the surface then return back to the volume and is the dominant neutral source for ionization in the divertor volume. Besides, sputtering and erosion happend that inject impurities into plasma. These impurity will radiate power and can dilute the core plasma if not controlled.<br /></p>
 
 <h4 id="2-fluid-plasma-transport">2. Fluid plasma transport</h4>
 
-<p>The fluid description of edge plasma transport is widely used in the research community. The fluid transport equations, known as the Braginskii equations, are derived from the Boltzmann transport equation. The Boltzmann transport equation provides a kinetic description of particle transport. By applying certain assumptions and performing mathematical integrations, the fluid plasma equations (Braginskii equations) are obtained. The physical meaning of Braginskii equations are the conservation equations for particle, momentum and electron and ion energy.<br /></p>
+<p>A fluid description of the edge plasma is appropriate when electron/ion self-collision mean free paths are small compared to the characteristic length e.g. connection length. Under this validity, the kinetic Boltzmann equation can be integrated to obtain the Braginskii fluid equations including continuity, parallel momentum, and electron/ion energy equations. These equations are solved on a computational grid and include source/sink terms from the atomic reactions above. <br /></p>
 
-<p>For 2D codes, e.g. SOLPS-IETR, UEDGE, SOLEDGE2D, EDGE2D etc, only the parallel momentum is solved. Both of them are large-scale code that have been in development for over 40 years.<br /></p>
+<p>In practice, the plasma fluid transport solvers adopt a finite-volume method (FVM) for the fluid equations and couple the unknowns values (density, parallel velocity and temperature) with algorithms; geometry, boundary conditions and discretization complete the PDE system. Examples of that are SOLPS-ITER, UEDGE, SOLEDGE2D, EDGE2D etc. The goal is the steady state plasma parameters can be compared with diagnostics for validation and for the design of future devices.<br /></p>
 
 <h4 id="3-kinetic-neutral-particle-transport">3. Kinetic neutral particle transport</h4>
 
-<p>In the Braginskii equations, source terms arise from collisions between plasma and neutral particles. For example, processes such as ionization, recombination, and charge exchange act as sources or sinks for particles, momentum, and energy. The source terms are provided by the kinetic description of the particle transport. A widely used code is called EIRENE.<br /></p>
+<p>Because neutrals have large mean free paths and undergo discrete events (ionization, CX, reflection, pumping), their transport is treated kinetically (source terms in the Braginskii equations arise from collisions between plasma and neutral particles).In the Braginskii equations, source terms arise from collisions between plasma and neutral particles. For example, processes such as ionization, recombination, and charge exchange act as sources or sinks for particles, momentum, and energy.<br /></p>
 
-<p>Even though EIRENE is highly complex, its main idea is simple: it uses the Monte Carlo method to solve the Boltzmann equation within a given domain. For boundary plasma modeling, this domain includes the vacuum vessel, which encompasses the plasma region and the surrounding vacuum up to the solid surfaces.<br /></p>
-
-<p>For example, neutral hydrogenic atoms D, neutral hydrogenic molecules D2, and short-lived molecular ions D2+ are considered. The sources of these particles include gas puffing, surface recycling, and volumetric recombination. Neutral particles move along straight lines until they undergo an event that may change their direction and/or terminate their existence. Such events include ionization, pumping, neutral-plasma collisions, or reflection at material surfaces. After recording a large number of particle histories, the resulting particle distribution is analyzed.<br /></p>
+<p>A widely used code is named as EIRENE.Even though EIRENE is highl complex, its main idea is simple: it uses the Monte Carlo method to solve the Boltzmann equation within a given domain. For example, neutral hydrogenic atoms D, neutral hydrogenic molecules D2, and short-lived molecular ions D2+ are considered. The sources of these particles include gas puffing, surface recycling, and volumetric recombination. Neutral particles move along straight lines until they undergo an event that may change their direction and/or terminate their existence. Such events include ionization, pumping, neutral-plasma collisions, or reflection at material surfaces. After recording a large number of particle histories (trajectory), the source terms are obatined through statistics.<br /></p>
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -480,7 +486,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2025-10-21 13:45:42 +0200"
+        "time": "2025-10-28 17:40:40 +0100"
     },
     "basePath": "/pex2024",
     "book": {
