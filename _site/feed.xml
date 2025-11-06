@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2025-11-05T15:38:09+01:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2025</title><subtitle>Power Exhaust modelling Workshop 2024
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/pex2024/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pex2024/" rel="alternate" type="text/html" /><updated>2025-11-06T18:21:07+01:00</updated><id>http://localhost:4000/pex2024/feed.xml</id><title type="html">PEX workshop 2025</title><subtitle>Power Exhaust modelling Workshop 2024
 </subtitle><author><name>Dr. Haosheng Wu, Prof. Fabio Subba</name></author><entry><title type="html">Q&amp;amp;A</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-11-Q&A.html" rel="alternate" type="text/html" title="Q&amp;amp;A" /><published>2024-09-11T00:00:00+02:00</published><updated>2024-09-11T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Q&amp;A</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-11-Q&amp;A.html"><![CDATA[<p>Following are the Questions and the Answers:<br /></p>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Following are the Questions and the Answers:]]></summary></entry><entry><title type="html">Final Project</title><link href="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html" rel="alternate" type="text/html" title="Final Project" /><published>2024-09-10T00:00:00+02:00</published><updated>2024-09-10T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Final</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-09-10-Final.html"><![CDATA[<p>The projects have already been uploaded to the Docker image. Students can update the Docker image to access the final projects.</p>
 
 <p>Additionally, the projects are listed here without the accompanying plots.</p>
@@ -45,7 +45,7 @@
 
 <p><strong>Question 5</strong>: 1) Please estimate the heat load (including both the plasma and surface recombination contributions) at the inner and outer targets in this flux tube and explain your reasoning. 2) Is it possible to estimate the total heat load at the inner and outer targets? Please explain your reasoning. 3) Is it possible to estimate how much power is radiated in the SOL region? Please explain your reasoning.<br /></p>
 
-<h2 id="project-four-project-four-alcator-c-mod-edge-plasma-modelling">Project Four: Project Four: Alcator C-Mod edge plasma modelling</h2>
+<h2 id="project-four-alcator-c-mod-edge-plasma-modelling">Project Four: Alcator C-Mod edge plasma modelling</h2>
 
 <p>In this project, an Alcator C-Mod edge plasma modelling case is provided. Deuterium is considered. The total power entering the Scrape-Off Layer is 3.6 MW. Please answer the following question according to the corresponding plots from the modelling results.<br /></p>
 
@@ -69,6 +69,8 @@ The list containing the names of students and their corresponding project number
 <p>The final project submission will be in PDF format, generated directly from the student’s Jupyter Notebook file. In other words, the final report will include the entire analysis process, such as relevant Python scripts and answers to the sub-questions. In general, each question does not have a fixed answer and focuses on understanding and analyzing the physical processes. The report will be evaluated by Prof. Subba.<br /></p>
 
 <p><strong>Students should complete the final project independently and are not allowed to use any artificial intelligence tools for the project.</strong></p>
+
+<p><strong>If you find the final project difficult, you can refer to the book <em>The Plasma Boundary of Magnetic Fusion Devices</em> by Peter C. Stangeby.</strong></p>
 
 <h2 id="when-to-do">When to do?</h2>
 
@@ -233,7 +235,7 @@ print(power_array)
 <span class="gh"># Calculate square root</span>
 square_array = np.power(power_array, 0.5)
 print(square_array)
-</code></pre></div></div>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this page, we will introduce the simplest usages of Python, which are used in this workshop. You can also try the following python commands in the Jupyter notebook from our pex2024 docker container or an online python interpreter.]]></summary></entry><entry><title type="html">Installation</title><link href="http://localhost:4000/pex2024/jekyll/2024-08-01-Installation.html" rel="alternate" type="text/html" title="Installation" /><published>2024-08-01T00:00:00+02:00</published><updated>2024-08-01T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Installation</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-08-01-Installation.html"><![CDATA[<p>In this workshop, we will use <a href="https://jupyter.org/">Jupyter Notebook</a> as the interface to do the exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contained in a <a href="https://www.docker.com">Docker image</a>. The docker image contains everything, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use <a href="https://code.visualstudio.com/">VScode</a> to acess the docker container which is a running instance of a docker image.</p>
+</code></pre></div></div>]]></content><author><name>Haosheng Wu</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this page, we will introduce the simplest usages of Python, which are used in this workshop. You can also try the following python commands in the Jupyter notebook from our pex2024 docker container or an online python interpreter.]]></summary></entry><entry><title type="html">Installation</title><link href="http://localhost:4000/pex2024/jekyll/2024-08-01-Installation.html" rel="alternate" type="text/html" title="Installation" /><published>2024-08-01T00:00:00+02:00</published><updated>2024-08-01T00:00:00+02:00</updated><id>http://localhost:4000/pex2024/jekyll/Installation</id><content type="html" xml:base="http://localhost:4000/pex2024/jekyll/2024-08-01-Installation.html"><![CDATA[<p>In this workshop, we will use <a href="https://jupyter.org/">Jupyter Notebook</a> as the interface to do the exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contained in a <a href="https://www.docker.com">Docker image</a>. The docker image contains everything, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use the Browser to acess the docker container which is a running instance of a docker image.</p>
 
 <p>You may have a question that Why do we use this format for the workshop? The answer is:</p>
 
@@ -250,54 +252,40 @@ print(square_array)
 <p><img src="/pex2024/assets/win_step1.png" alt="win_step1" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step2-install-vscode">Step2: Install VScode</h3>
 
-<p>In the <a href="https://code.visualstudio.com/">VScode official website</a> download the Window version which is marked by red line as the following picture and then install the VScode according to the instruction.<br /></p>
-
-<p><img src="/pex2024/assets/win_step2.png" alt="win_step2" style="width: 60%;" /></p>
-
-<hr />
-<h3 id="step3-install-docker-extension-in-vscode">Step3: Install Docker extension in VScode</h3>
-
-<p>After the successful installation of VScode, run the VScode. In the VScode, click the icon of ‘Extensions’. In the search bar type “docker” and then install the “docker extension” in VScode. This step in shown in the following picture. Through the “docker extension”, we can access the docker container direclty by VScode.<br /></p>
-
-<p><img src="/pex2024/assets/win_step3.png" alt="win_step3" style="width: 60%;" /></p>
-
-<hr />
-<p><strong>You can do the following steps by yourself or We can do the them together in the first time of hand-on session.</strong></p>
-
-<h3 id="step4-download-the-pex2024-image-in-docker-desktop">Step4: Download the pex2024 image in docker desktop</h3>
+<h3 id="step2-download-the-pex2024-image-in-docker-desktop">Step2: Download the pex2024 image in docker desktop</h3>
 
 <p>Run the docker program and then click the “Images” icon. In the search bar, type “pex2024” then you will see the corresponding image. Click the ‘pull’ botton to automatically install the corresponding image.<br />
 This image contains all the necessary materials which are used for the hand-on sessions.<br /></p>
 
-<p><img src="/pex2024/assets/win_step4.png" alt="win_step4" style="width: 60%;" /></p>
+<p><img src="/pex2024/assets/win_step2.png" alt="win_step2" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step5-run-the-pex2024-container-to-create-the-container">Step5: Run the pex2024 container to create the container</h3>
+<h3 id="step3-run-the-pex2024-image-to-create-the-container">Step3: Run the pex2024 image to create the container</h3>
+
 <p>As presented by the following picture, in the this step:<br />
-1) In the VScode, click the ‘docker’ icon, then in the left, there are related items.<br />
-2) In the ‘IMAGES’, find the ‘docker.io/wuhsh/pex2024’ image, which is downloaded in step4, and then click the ‘&gt;’ botton.<br />
-3) Right click ‘20241117’, which is the tag for the image.<br />
-4) Click ‘Run Interactive’ that a container will be automatically build based on this image.<br />
-<img src="/pex2024/assets/win_step5.png" alt="win_step5" style="width: 60%;" /></p>
+1) In the ‘Images’, click the run botton which is an triangular ‘&gt;’ <br />
+2) Use 8888 for ‘Host port’.<br />
+<img src="/pex2024/assets/win_step3.png" alt="win_step3" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step6-launch-the-container">Step6: Launch the container.</h3>
+<h3 id="step4-open-the-launch-the-container">Step4: Open the Launch the container.</h3>
+
 <p>As presented by the following picture, in the this step:<br />
-1) In the ‘CONTAINERS’ part of VScode, right click our container ‘wuhsh/pex2024:20241117’.<br />
-2) Select the ‘Open in Browser’.<br />
-<img src="/pex2024/assets/win_step6.png" alt="win_step6" style="width: 60%;" /></p>
+Click the link will automatically opern the Jupyter Notebook in your Browser.<br />
+<img src="/pex2024/assets/win_step4.png" alt="win_step4" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step7-start-jupyter-notebook-through-browser">Step7: Start Jupyter Notebook through Browser.</h3>
-<p>Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the ‘TERMINAL’ part of VScode, as shown in the left, and copy the token and then paste it to the browser.<br />
-<img src="/pex2024/assets/win_step7.png" alt="win_step7" style="width: 100%;" /></p>
+<h3 id="step5-stop-the-container">Step5: Stop the container</h3>
 
-<hr />
-<h3 id="step8-final-step">Step8: Final step</h3>
-<p>If everything goes well, in the browser you can see as the following picture. All of our hand-on sessions are based on the jupyter notebook.<br />
-<img src="/pex2024/assets/win_step8.png" alt="win_step8" style="width: 100%;" /></p>
+<p>In <strong>Containers</strong>, if you haven’t finished the exercise, you can pause the container by clicking <strong>Stop</strong>. You can <strong>Start</strong> the container again when you want to continue the exercise.</p>
+
+<p>If you have finished the hands-on sessions, I suggest downloading the <code class="language-plaintext highlighter-rouge">*.ipynb</code> file to your local computer. Or converting it to the PDF format file.</p>
+
+<p>You can also delete the current container and re-create a new one. The new container will return to the initial state, which means that if you didn’t save your <code class="language-plaintext highlighter-rouge">*.ipynb</code> file, it will be lost.</p>
+
+<p><img src="/pex2024/assets/win_step5.png" alt="win_step5" style="width: 100%;" />
+***</p>
 
 <h2 id="for-mac">For Mac:</h2>
 <p>The installations for Mac is similar to Windows, followings are the steps:<br /></p>
@@ -309,50 +297,15 @@ This image contains all the necessary materials which are used for the hand-on s
 <p><img src="/pex2024/assets/mac_step1.png" alt="mac_step1" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step2-install-vscode-1">Step2: Install VScode</h3>
-
-<p>In the <a href="https://code.visualstudio.com/">VScode official website</a> download the Mac version which is marked by red line as the following picture and then install the VScode according to the instruction.<br /></p>
-
-<p><img src="/pex2024/assets/mac_step2.png" alt="mac_step2" style="width: 60%;" /></p>
-
-<hr />
-<h3 id="step3-install-docker-extension-in-vscode-1">Step3: Install Docker extension in VScode</h3>
-
-<p>After the successful installation of VScode, run the VScode. In the VScode, click the icon of ‘Extensions’. In the search bar type “docker” and then install the “docker extension” in VScode. This step in shown in the following picture. Through the “docker extension”, we can access the docker container direclty by VScode.<br /></p>
-
-<p><img src="/pex2024/assets/mac_step3.png" alt="mac_step3" style="width: 60%;" /></p>
 
 <hr />
 <p><strong>You can do the following steps by yourself or We can do the them together in the first time of hand-on session.</strong>
 ***</p>
 
-<h3 id="step4-download-the-pex2024-image-in-docker-desktop-1">Step4: Download the pex2024 image in docker desktop</h3>
+<h3 id="step2-download-the-pex2024-image-in-docker-desktop-1">Step2: Download the pex2024 image in docker desktop</h3>
 <p>Run the docker program and then click the “Images” icon. In the search bar, type “pex2024” then you will see the corresponding image. Click the ‘pull’ botton to automatically install the corresponding image.<br />
 This image contains all the necessary materials which are used for the hand-on sessions.<br />
-<img src="/pex2024/assets/mac_step4.png" alt="mac_step4" style="width: 60%;" /></p>
+<img src="/pex2024/assets/mac_step2.png" alt="mac_step2" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step5-run-the-pex2024-container-to-create-the-container-1">Step5: Run the pex2024 container to create the container</h3>
-<p>As presented by the following picture, in the this step:<br />
-1) In the VScode, click the ‘docker’ icon, then in the left, there are related items.<br />
-2) In the ‘IMAGES’, find the ‘docker.io/wuhsh/pex2024’ image, which is downloaded in step4, and then click the ‘&gt;’ botton.<br />
-3) Right click ‘20241117’, which is the tag for the image.<br />
-4) Click ‘Run Interactive’ that a container will be automatically build based on this image.<br />
-<img src="/pex2024/assets/mac_step5.png" alt="mac_step5" style="width: 60%;" /></p>
-
-<hr />
-<h3 id="step6-launch-the-container-1">Step6: Launch the container.</h3>
-<p>As presented by the following picture, in the this step:<br />
-1) In the ‘CONTAINERS’ part of VScode, right click our container ‘wuhsh/pex2024:20241117’.<br />
-2) Select the ‘Open in Browser’.<br />
-<img src="/pex2024/assets/mac_step6.png" alt="mac_step6" style="width: 60%;" /></p>
-
-<hr />
-<h3 id="step7-start-jupyter-notebook-through-browser-1">Step7: Start Jupyter Notebook through Browser.</h3>
-<p>Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the ‘TERNIMAL’ part of VScode, as shown in the left, and copy the token, e.g. bf75b5667da71b9d82ef23cad10e851133882761247e292e, then paste it to the browser and log in.<br />
-<img src="/pex2024/assets/mac_step7.png" alt="mac_step7" style="width: 100%;" /></p>
-
-<hr />
-<h3 id="step8-final-step-1">Step8: Final step</h3>
-<p>If everything goes well, in the browser you can see as the following picture. All of our hand-on sessions are based on the jupyter notebook.<br />
-<img src="/pex2024/assets/mac_step8.png" alt="mac_step8" style="width: 100%;" /></p>]]></content><author><name>Haosheng Wu and Yilin Wang</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this workshop, we will use Jupyter Notebook as the interface to do the exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contained in a Docker image. The docker image contains everything, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use VScode to acess the docker container which is a running instance of a docker image.]]></summary></entry></feed>
+<h3 id="step3-step5-are-the-same-as-the-steps-in-windows">Step3-Step5 are the same as the Steps in Windows.</h3>]]></content><author><name>Haosheng Wu and Yilin Wang</name></author><category term="Jekyll" /><summary type="html"><![CDATA[In this workshop, we will use Jupyter Notebook as the interface to do the exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contained in a Docker image. The docker image contains everything, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use the Browser to acess the docker container which is a running instance of a docker image.]]></summary></entry></feed>

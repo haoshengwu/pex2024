@@ -7,11 +7,13 @@ permalink: /
 
 ## Overview
 
-**Welcome** to the Power EXhasut (**PEX**) Modelling Workshop 2025, which is the practical part of Nuclear Fusion Reactor Physics (**NFRP** 01PUCND 01PUCXY) A.A. 2025/2026. 
+**Welcome** to the Power EXhasut (**PEX**) Modelling Workshop 2025, which is the practical part of Nuclear Fusion Reactor Physics (**NFRP 01PUCND 01PUCXY**) A.A. 2025/2026. 
 
 The main aim of this workshop is to help the students to understand the basic physical concepts about edge plasma which are related to divertor power exhaust modelling, and try to reduce the gap between physics and engineering.
 
 This workshop consists of three times, each time including a lecture part (~40 mins) and a Hands-on session (~2 hour). In the lecture part, the related knowledge e.g. edge plasma physics and the power exhaust problem, is introduced. The notes for the lecture part can be found in the Lecture pages. In the hands-on session, students, together with Dr. Haosheng Wu, will carry out some practical exercises based on the Jupyter Notebook. An additional Preparation session is also provided that help the students install necessary materials/softwares, which are used in this workshop.
+
+If you find the hands-on sessions difficult, you can read Chapters 1–6 in *The Plasma Boundary of Magnetic Fusion Devices by Peter C. Stangeby*.
 
 After the workshop, every student is assigned ONE out of FOUR projects, which they are expected to complete independently. **Students are not allowed to use any artificial intelligence tools for the project**. All the necessary knowledge and tools for the projects are provided in this workshop. More details about the projects can be found in the Final Project page.
 

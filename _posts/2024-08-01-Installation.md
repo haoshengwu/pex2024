@@ -1,12 +1,12 @@
 ---
 title: Installation
-author: Haosheng Wu and Yilin Wang
+author: Haosheng Wu
 date: 2024-08-01
 category: Jekyll
 layout: post
 ---
 
-In this workshop, we will use [Jupyter Notebook](https://jupyter.org/) as the interface to do the exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contained in a [Docker image](https://www.docker.com). The docker image contains everything, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use [VScode](https://code.visualstudio.com/) to acess the docker container which is a running instance of a docker image.
+In this workshop, we will use [Jupyter Notebook](https://jupyter.org/) as the interface to do the exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contained in a [Docker image](https://www.docker.com). The docker image contains everything, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use the Browser to acess the docker container which is a running instance of a docker image.
 
 You may have a question that Why do we use this format for the workshop? The answer is:
 
@@ -23,54 +23,42 @@ In the [Docker official website](https://www.docker.com/) download the Window ve
 ![win_step1](/pex2024/assets/win_step1.png){: style="width: 60%;" }
 
 ***
-### Step2: Install VScode
 
-In the [VScode official website](https://code.visualstudio.com/) download the Window version which is marked by red line as the following picture and then install the VScode according to the instruction.<br>
-
-![win_step2](/pex2024/assets/win_step2.png){: style="width: 60%;" }
-
-***
-### Step3: Install Docker extension in VScode
-
-After the successful installation of VScode, run the VScode. In the VScode, click the icon of 'Extensions'. In the search bar type "docker" and then install the "docker extension" in VScode. This step in shown in the following picture. Through the "docker extension", we can access the docker container direclty by VScode.<br>
-
-![win_step3](/pex2024/assets/win_step3.png){: style="width: 60%;" }
-
-***
-**You can do the following steps by yourself or We can do the them together in the first time of hand-on session.**
-
-### Step4: Download the pex2024 image in docker desktop
+### Step2: Download the pex2024 image in docker desktop
 
 Run the docker program and then click the "Images" icon. In the search bar, type "pex2024" then you will see the corresponding image. Click the 'pull' botton to automatically install the corresponding image.<br>
 This image contains all the necessary materials which are used for the hand-on sessions.<br> 
 
+![win_step2](/pex2024/assets/win_step2.png){: style="width: 60%;" }
+
+***
+### Step3: Run the pex2024 image to create the container
+
+As presented by the following picture, in the this step:<br>
+1) In the 'Images', click the run botton which is an triangular '>' <br>
+2) Use 8888 for 'Host port'.<br>
+
+![win_step3](/pex2024/assets/win_step3.png){: style="width: 60%;" }
+
+***
+### Step4: Open the Launch the container.
+
+As presented by the following picture, in the this step:<br>
+Click the link will automatically opern the Jupyter Notebook in your Browser.<br>
+
 ![win_step4](/pex2024/assets/win_step4.png){: style="width: 60%;" }
 
 ***
-### Step5: Run the pex2024 container to create the container
-As presented by the following picture, in the this step:<br>
-1) In the VScode, click the 'docker' icon, then in the left, there are related items.<br>
-2) In the 'IMAGES', find the 'docker.io/wuhsh/pex2024' image, which is downloaded in step4, and then click the '>' botton.<br>
-3) Right click '20241117', which is the tag for the image.<br>
-4) Click 'Run Interactive' that a container will be automatically build based on this image.<br>
+### Step5: Stop the container
+
+In **Containers**, if you haven't finished the exercise, you can pause the container by clicking **Stop**. You can **Start** the container again when you want to continue the exercise.
+
+If you have finished the hands-on sessions, I suggest downloading the `*.ipynb` file to your local computer. Or converting it to the PDF format file.
+
+You can also delete the current container and re-create a new one. The new container will return to the initial state, which means that if you didn’t save your `*.ipynb` file, it will be lost.
+
 ![win_step5](/pex2024/assets/win_step5.png){: style="width: 60%;" }
-
 ***
-### Step6: Launch the container.
-As presented by the following picture, in the this step:<br>
-1) In the 'CONTAINERS' part of VScode, right click our container 'wuhsh/pex2024:20241117'.<br>
-2) Select the 'Open in Browser'.<br>
-![win_step6](/pex2024/assets/win_step6.png){: style="width: 60%;" }
-
-***
-### Step7: Start Jupyter Notebook through Browser.
-Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the 'TERMINAL' part of VScode, as shown in the left, and copy the token and then paste it to the browser.<br>
-![win_step7](/pex2024/assets/win_step7.png){: style="width: 100%;" }
-
-***
-### Step8: Final step
-If everything goes well, in the browser you can see as the following picture. All of our hand-on sessions are based on the jupyter notebook.<br>
-![win_step8](/pex2024/assets/win_step8.png){: style="width: 100%;" }
 
 
 ## For Mac:
@@ -83,50 +71,16 @@ In the [Docker official website](https://www.docker.com/) download the correct M
 ![mac_step1](/pex2024/assets/mac_step1.png){: style="width: 60%;" }
 
 ***
-### Step2: Install VScode
-
-In the [VScode official website](https://code.visualstudio.com/) download the Mac version which is marked by red line as the following picture and then install the VScode according to the instruction.<br>
-
-![mac_step2](/pex2024/assets/mac_step2.png){: style="width: 60%;" }
-
-***
-### Step3: Install Docker extension in VScode
-
-After the successful installation of VScode, run the VScode. In the VScode, click the icon of 'Extensions'. In the search bar type "docker" and then install the "docker extension" in VScode. This step in shown in the following picture. Through the "docker extension", we can access the docker container direclty by VScode.<br>
-
-![mac_step3](/pex2024/assets/mac_step3.png){: style="width: 60%;" }
 
 ***
 **You can do the following steps by yourself or We can do the them together in the first time of hand-on session.**
 ***
 
-### Step4: Download the pex2024 image in docker desktop
+### Step2: Download the pex2024 image in docker desktop
 Run the docker program and then click the "Images" icon. In the search bar, type "pex2024" then you will see the corresponding image. Click the 'pull' botton to automatically install the corresponding image.<br>
 This image contains all the necessary materials which are used for the hand-on sessions.<br>
-![mac_step4](/pex2024/assets/mac_step4.png){: style="width: 60%;" }
+
+![mac_step2](/pex2024/assets/mac_step2.png){: style="width: 60%;" }
 
 ***
-### Step5: Run the pex2024 container to create the container
-As presented by the following picture, in the this step:<br>
-1) In the VScode, click the 'docker' icon, then in the left, there are related items.<br>
-2) In the 'IMAGES', find the 'docker.io/wuhsh/pex2024' image, which is downloaded in step4, and then click the '>' botton.<br>
-3) Right click '20241117', which is the tag for the image.<br>
-4) Click 'Run Interactive' that a container will be automatically build based on this image.<br>
-![mac_step5](/pex2024/assets/mac_step5.png){: style="width: 60%;" }
-
-***
-### Step6: Launch the container.
-As presented by the following picture, in the this step:<br>
-1) In the 'CONTAINERS' part of VScode, right click our container 'wuhsh/pex2024:20241117'.<br>
-2) Select the 'Open in Browser'.<br>
-![mac_step6](/pex2024/assets/mac_step6.png){: style="width: 60%;" }
-
-***
-### Step7: Start Jupyter Notebook through Browser.
-Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the 'TERNIMAL' part of VScode, as shown in the left, and copy the token, e.g. bf75b5667da71b9d82ef23cad10e851133882761247e292e, then paste it to the browser and log in.<br>
-![mac_step7](/pex2024/assets/mac_step7.png){: style="width: 100%;" }
-
-***
-### Step8: Final step
-If everything goes well, in the browser you can see as the following picture. All of our hand-on sessions are based on the jupyter notebook.<br>
-![mac_step8](/pex2024/assets/mac_step8.png){: style="width: 100%;" }
+### Step3-Step5 are the same as the Steps in Windows.

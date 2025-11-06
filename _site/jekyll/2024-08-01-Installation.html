@@ -95,7 +95,7 @@
                                 </a>
                                 
                                     
-                                        <ul><li><a href="#for-windows" onclick="mobilePageScrollToAnchor(this)" >For Windows:</a><ul><li><a href="#step1-install-docker" onclick="mobilePageScrollToAnchor(this)" >Step1: Install Docker</a></li><li><a href="#step2-install-vscode" onclick="mobilePageScrollToAnchor(this)" >Step2: Install VScode</a></li><li><a href="#step3-install-docker-extension-in-vscode" onclick="mobilePageScrollToAnchor(this)" >Step3: Install Docker extension in VScode</a></li><li><a href="#step4-download-the-pex2024-image-in-docker-desktop" onclick="mobilePageScrollToAnchor(this)" >Step4: Download the pex2024 image in docker desktop</a></li><li><a href="#step5-run-the-pex2024-container-to-create-the-container" onclick="mobilePageScrollToAnchor(this)" >Step5: Run the pex2024 container to create the container</a></li><li><a href="#step6-launch-the-container" onclick="mobilePageScrollToAnchor(this)" >Step6: Launch the container.</a></li><li><a href="#step7-start-jupyter-notebook-through-browser" onclick="mobilePageScrollToAnchor(this)" >Step7: Start Jupyter Notebook through Browser.</a></li><li><a href="#step8-final-step" onclick="mobilePageScrollToAnchor(this)" >Step8: Final step</a></li></ul></li><li><a href="#for-mac" onclick="mobilePageScrollToAnchor(this)" >For Mac:</a><ul><li><a href="#step1-install-docker-1" onclick="mobilePageScrollToAnchor(this)" >Step1: Install Docker</a></li><li><a href="#step2-install-vscode-1" onclick="mobilePageScrollToAnchor(this)" >Step2: Install VScode</a></li><li><a href="#step3-install-docker-extension-in-vscode-1" onclick="mobilePageScrollToAnchor(this)" >Step3: Install Docker extension in VScode</a></li><li><a href="#step4-download-the-pex2024-image-in-docker-desktop-1" onclick="mobilePageScrollToAnchor(this)" >Step4: Download the pex2024 image in docker desktop</a></li><li><a href="#step5-run-the-pex2024-container-to-create-the-container-1" onclick="mobilePageScrollToAnchor(this)" >Step5: Run the pex2024 container to create the container</a></li><li><a href="#step6-launch-the-container-1" onclick="mobilePageScrollToAnchor(this)" >Step6: Launch the container.</a></li><li><a href="#step7-start-jupyter-notebook-through-browser-1" onclick="mobilePageScrollToAnchor(this)" >Step7: Start Jupyter Notebook through Browser.</a></li><li><a href="#step8-final-step-1" onclick="mobilePageScrollToAnchor(this)" >Step8: Final step</a></li></ul></li></ul>
+                                        <ul><li><a href="#for-windows" onclick="mobilePageScrollToAnchor(this)" >For Windows:</a><ul><li><a href="#step1-install-docker" onclick="mobilePageScrollToAnchor(this)" >Step1: Install Docker</a></li><li><a href="#step2-download-the-pex2024-image-in-docker-desktop" onclick="mobilePageScrollToAnchor(this)" >Step2: Download the pex2024 image in docker desktop</a></li><li><a href="#step3-run-the-pex2024-image-to-create-the-container" onclick="mobilePageScrollToAnchor(this)" >Step3: Run the pex2024 image to create the container</a></li><li><a href="#step4-open-the-launch-the-container" onclick="mobilePageScrollToAnchor(this)" >Step4: Open the Launch the container.</a></li><li><a href="#step5-stop-the-container" onclick="mobilePageScrollToAnchor(this)" >Step5: Stop the container</a></li></ul></li><li><a href="#for-mac" onclick="mobilePageScrollToAnchor(this)" >For Mac:</a><ul><li><a href="#step1-install-docker-1" onclick="mobilePageScrollToAnchor(this)" >Step1: Install Docker</a></li><li><a href="#step2-download-the-pex2024-image-in-docker-desktop-1" onclick="mobilePageScrollToAnchor(this)" >Step2: Download the pex2024 image in docker desktop</a></li><li><a href="#step3-step5-are-the-same-as-the-steps-in-windows" onclick="mobilePageScrollToAnchor(this)" >Step3-Step5 are the same as the Steps in Windows.</a></li></ul></li></ul>
 
                                     
                                 
@@ -278,7 +278,7 @@
                         <h1 id="/jekyll/Installation">Installation</h1>
                     
 
-                    <p>In this workshop, we will use <a href="https://jupyter.org/">Jupyter Notebook</a> as the interface to do the exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contained in a <a href="https://www.docker.com">Docker image</a>. The docker image contains everything, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use <a href="https://code.visualstudio.com/">VScode</a> to acess the docker container which is a running instance of a docker image.</p>
+                    <p>In this workshop, we will use <a href="https://jupyter.org/">Jupyter Notebook</a> as the interface to do the exercises. All the necessary materials (exercises, simulation data, numerical tools etc.) are already contained in a <a href="https://www.docker.com">Docker image</a>. The docker image contains everything, including the code, runtime, libraries, environment variables, configuration files, and dependencies. We use the Browser to acess the docker container which is a running instance of a docker image.</p>
 
 <p>You may have a question that Why do we use this format for the workshop? The answer is:</p>
 
@@ -295,54 +295,40 @@
 <p><img src="/pex2024/assets/win_step1.png" alt="win_step1" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step2-install-vscode">Step2: Install VScode</h3>
 
-<p>In the <a href="https://code.visualstudio.com/">VScode official website</a> download the Window version which is marked by red line as the following picture and then install the VScode according to the instruction.<br /></p>
-
-<p><img src="/pex2024/assets/win_step2.png" alt="win_step2" style="width: 60%;" /></p>
-
-<hr />
-<h3 id="step3-install-docker-extension-in-vscode">Step3: Install Docker extension in VScode</h3>
-
-<p>After the successful installation of VScode, run the VScode. In the VScode, click the icon of ‘Extensions’. In the search bar type “docker” and then install the “docker extension” in VScode. This step in shown in the following picture. Through the “docker extension”, we can access the docker container direclty by VScode.<br /></p>
-
-<p><img src="/pex2024/assets/win_step3.png" alt="win_step3" style="width: 60%;" /></p>
-
-<hr />
-<p><strong>You can do the following steps by yourself or We can do the them together in the first time of hand-on session.</strong></p>
-
-<h3 id="step4-download-the-pex2024-image-in-docker-desktop">Step4: Download the pex2024 image in docker desktop</h3>
+<h3 id="step2-download-the-pex2024-image-in-docker-desktop">Step2: Download the pex2024 image in docker desktop</h3>
 
 <p>Run the docker program and then click the “Images” icon. In the search bar, type “pex2024” then you will see the corresponding image. Click the ‘pull’ botton to automatically install the corresponding image.<br />
 This image contains all the necessary materials which are used for the hand-on sessions.<br /></p>
 
-<p><img src="/pex2024/assets/win_step4.png" alt="win_step4" style="width: 60%;" /></p>
+<p><img src="/pex2024/assets/win_step2.png" alt="win_step2" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step5-run-the-pex2024-container-to-create-the-container">Step5: Run the pex2024 container to create the container</h3>
+<h3 id="step3-run-the-pex2024-image-to-create-the-container">Step3: Run the pex2024 image to create the container</h3>
+
 <p>As presented by the following picture, in the this step:<br />
-1) In the VScode, click the ‘docker’ icon, then in the left, there are related items.<br />
-2) In the ‘IMAGES’, find the ‘docker.io/wuhsh/pex2024’ image, which is downloaded in step4, and then click the ‘&gt;’ botton.<br />
-3) Right click ‘20241117’, which is the tag for the image.<br />
-4) Click ‘Run Interactive’ that a container will be automatically build based on this image.<br />
-<img src="/pex2024/assets/win_step5.png" alt="win_step5" style="width: 60%;" /></p>
+1) In the ‘Images’, click the run botton which is an triangular ‘&gt;’ <br />
+2) Use 8888 for ‘Host port’.<br />
+<img src="/pex2024/assets/win_step3.png" alt="win_step3" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step6-launch-the-container">Step6: Launch the container.</h3>
+<h3 id="step4-open-the-launch-the-container">Step4: Open the Launch the container.</h3>
+
 <p>As presented by the following picture, in the this step:<br />
-1) In the ‘CONTAINERS’ part of VScode, right click our container ‘wuhsh/pex2024:20241117’.<br />
-2) Select the ‘Open in Browser’.<br />
-<img src="/pex2024/assets/win_step6.png" alt="win_step6" style="width: 60%;" /></p>
+Click the link will automatically opern the Jupyter Notebook in your Browser.<br />
+<img src="/pex2024/assets/win_step4.png" alt="win_step4" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step7-start-jupyter-notebook-through-browser">Step7: Start Jupyter Notebook through Browser.</h3>
-<p>Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the ‘TERMINAL’ part of VScode, as shown in the left, and copy the token and then paste it to the browser.<br />
-<img src="/pex2024/assets/win_step7.png" alt="win_step7" style="width: 100%;" /></p>
+<h3 id="step5-stop-the-container">Step5: Stop the container</h3>
 
-<hr />
-<h3 id="step8-final-step">Step8: Final step</h3>
-<p>If everything goes well, in the browser you can see as the following picture. All of our hand-on sessions are based on the jupyter notebook.<br />
-<img src="/pex2024/assets/win_step8.png" alt="win_step8" style="width: 100%;" /></p>
+<p>In <strong>Containers</strong>, if you haven’t finished the exercise, you can pause the container by clicking <strong>Stop</strong>. You can <strong>Start</strong> the container again when you want to continue the exercise.</p>
+
+<p>If you have finished the hands-on sessions, I suggest downloading the <code class="language-plaintext highlighter-rouge">*.ipynb</code> file to your local computer. Or converting it to the PDF format file.</p>
+
+<p>You can also delete the current container and re-create a new one. The new container will return to the initial state, which means that if you didn’t save your <code class="language-plaintext highlighter-rouge">*.ipynb</code> file, it will be lost.</p>
+
+<p><img src="/pex2024/assets/win_step5.png" alt="win_step5" style="width: 100%;" />
+***</p>
 
 <h2 id="for-mac">For Mac:</h2>
 <p>The installations for Mac is similar to Windows, followings are the steps:<br /></p>
@@ -354,53 +340,18 @@ This image contains all the necessary materials which are used for the hand-on s
 <p><img src="/pex2024/assets/mac_step1.png" alt="mac_step1" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step2-install-vscode-1">Step2: Install VScode</h3>
-
-<p>In the <a href="https://code.visualstudio.com/">VScode official website</a> download the Mac version which is marked by red line as the following picture and then install the VScode according to the instruction.<br /></p>
-
-<p><img src="/pex2024/assets/mac_step2.png" alt="mac_step2" style="width: 60%;" /></p>
-
-<hr />
-<h3 id="step3-install-docker-extension-in-vscode-1">Step3: Install Docker extension in VScode</h3>
-
-<p>After the successful installation of VScode, run the VScode. In the VScode, click the icon of ‘Extensions’. In the search bar type “docker” and then install the “docker extension” in VScode. This step in shown in the following picture. Through the “docker extension”, we can access the docker container direclty by VScode.<br /></p>
-
-<p><img src="/pex2024/assets/mac_step3.png" alt="mac_step3" style="width: 60%;" /></p>
 
 <hr />
 <p><strong>You can do the following steps by yourself or We can do the them together in the first time of hand-on session.</strong>
 ***</p>
 
-<h3 id="step4-download-the-pex2024-image-in-docker-desktop-1">Step4: Download the pex2024 image in docker desktop</h3>
+<h3 id="step2-download-the-pex2024-image-in-docker-desktop-1">Step2: Download the pex2024 image in docker desktop</h3>
 <p>Run the docker program and then click the “Images” icon. In the search bar, type “pex2024” then you will see the corresponding image. Click the ‘pull’ botton to automatically install the corresponding image.<br />
 This image contains all the necessary materials which are used for the hand-on sessions.<br />
-<img src="/pex2024/assets/mac_step4.png" alt="mac_step4" style="width: 60%;" /></p>
+<img src="/pex2024/assets/mac_step2.png" alt="mac_step2" style="width: 60%;" /></p>
 
 <hr />
-<h3 id="step5-run-the-pex2024-container-to-create-the-container-1">Step5: Run the pex2024 container to create the container</h3>
-<p>As presented by the following picture, in the this step:<br />
-1) In the VScode, click the ‘docker’ icon, then in the left, there are related items.<br />
-2) In the ‘IMAGES’, find the ‘docker.io/wuhsh/pex2024’ image, which is downloaded in step4, and then click the ‘&gt;’ botton.<br />
-3) Right click ‘20241117’, which is the tag for the image.<br />
-4) Click ‘Run Interactive’ that a container will be automatically build based on this image.<br />
-<img src="/pex2024/assets/mac_step5.png" alt="mac_step5" style="width: 60%;" /></p>
-
-<hr />
-<h3 id="step6-launch-the-container-1">Step6: Launch the container.</h3>
-<p>As presented by the following picture, in the this step:<br />
-1) In the ‘CONTAINERS’ part of VScode, right click our container ‘wuhsh/pex2024:20241117’.<br />
-2) Select the ‘Open in Browser’.<br />
-<img src="/pex2024/assets/mac_step6.png" alt="mac_step6" style="width: 60%;" /></p>
-
-<hr />
-<h3 id="step7-start-jupyter-notebook-through-browser-1">Step7: Start Jupyter Notebook through Browser.</h3>
-<p>Once you successfully open the container in your browser, you will see the right part of the following picture. Then please go to the ‘TERNIMAL’ part of VScode, as shown in the left, and copy the token, e.g. bf75b5667da71b9d82ef23cad10e851133882761247e292e, then paste it to the browser and log in.<br />
-<img src="/pex2024/assets/mac_step7.png" alt="mac_step7" style="width: 100%;" /></p>
-
-<hr />
-<h3 id="step8-final-step-1">Step8: Final step</h3>
-<p>If everything goes well, in the browser you can see as the following picture. All of our hand-on sessions are based on the jupyter notebook.<br />
-<img src="/pex2024/assets/mac_step8.png" alt="mac_step8" style="width: 100%;" /></p>
+<h3 id="step3-step5-are-the-same-as-the-steps-in-windows">Step3-Step5 are the same as the Steps in Windows.</h3>
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -582,7 +533,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2025-11-05 15:38:09 +0100"
+        "time": "2025-11-06 18:21:07 +0100"
     },
     "basePath": "/pex2024",
     "book": {

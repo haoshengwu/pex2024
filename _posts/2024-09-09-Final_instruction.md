@@ -17,7 +17,9 @@ During the hands-on sessions, students will conduct physical analyses related to
 
 The final project submission will be in PDF format, generated directly from the student's Jupyter Notebook file. In other words, the final report will include the entire analysis process, such as relevant Python scripts and answers to the sub-questions. In general, each question does not have a fixed answer and focuses on understanding and analyzing the physical processes. The report will be evaluated by Prof. Subba.<br>
 
-**Students should complete the final project independently and are not allowed to use any artificial intelligence tools for the project.** 
+**Students should complete the final project independently and are not allowed to use any artificial intelligence tools for the project.**
+
+**If you find the final project difficult, you can refer to the book *The Plasma Boundary of Magnetic Fusion Devices* by Peter C. Stangeby.**
 
 ## When to do?
 
