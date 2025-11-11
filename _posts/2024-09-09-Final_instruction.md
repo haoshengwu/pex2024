@@ -23,5 +23,5 @@ The final project submission will be in PDF format, generated directly from the 
 
 ## When to do?
 
-If the student have any questions related to the final project, please contact haosheng.wu@polito.it before **January 31st**. After this date, the questions related the final projects will no longer be answered. 
+If the student have any questions related to the final project, please contact haosheng.wu@polito.it as soon as possible.
 
