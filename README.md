@@ -30,7 +30,7 @@ The students will be divided into two groups. The agenda is as follows:
 |:-:|:-:|:-:|:-:|
 |2025-11-11|Preparation session|11:30-13:30|Introduction|
 |2025-12-02|Lecture 1 + Hand-on session 1|16:00-19:00|Background|
-|2025-12-12|Lecture 2 + Hand-on session 2|08:30-11:30|SOL Transport|
+|2025-12-12|Lecture 2 + Hand-on session 2|16:00-19:00|SOL Transport|
 |2025-12-16|Lecture 3 + Hand-on session 3|16:00-19:00|Divertor Regimes|
 
 </div>
@@ -42,7 +42,7 @@ The students will be divided into two groups. The agenda is as follows:
 |:-:|:-:|:-:|:-:|
 |2025-11-11|Preparation session|11:30-13:30|Introduction|
 |2025-11-13|Lecture 1 + Hand-on session 1|16:00-19:00|Background|
-|2025-12-12|Lecture 2 + Hand-on session 2|16:00-19:00|SOL Transport|
+|2025-12-02|Lecture 2 + Hand-on session 2|11:30-14:30|SOL Transport|
 |2026-12-15|Lecture 3 + Hand-on session 3|08:30-11:30|Divertor Regimes|
 
 </div>
