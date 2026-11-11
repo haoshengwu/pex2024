@@ -7,11 +7,11 @@ permalink: /
 
 ## Overview
 
-**Welcome** to the Power EXhasut (**PEX**) Modelling Workshop 2025, which is the practical part of Nuclear Fusion Reactor Physics (**NFRP 01PUCND 01PUCXY**) A.A. 2025/2026. 
+**Welcome** to the Power EXhasut (**PEX**) Modelling Workshop 2026, which is the practical part of Nuclear Fusion Reactor Physics (**NFRP 01PUCND 01PUCXY**) A.A. 2026/2027. 
 
 The main aim of this workshop is to help the students to understand the basic physical concepts about edge plasma which are related to divertor power exhaust modelling, and try to reduce the gap between physics and engineering.
 
-This workshop consists of three times, each time including a lecture part (~40 mins) and a Hands-on session (~2 hour). In the lecture part, the related knowledge e.g. edge plasma physics and the power exhaust problem, is introduced. The notes for the lecture part can be found in the Lecture pages. In the hands-on session, students, together with Dr. Haosheng Wu, will carry out some practical exercises based on the Jupyter Notebook. An additional Preparation session is also provided that help the students install necessary materials/softwares, which are used in this workshop.
+This workshop consists of three times, each time including a lecture part (~1 hour) and a Hands-on session (~1.5 hour). In the lecture part, the related knowledge e.g. edge plasma physics and the power exhaust problem, will be introduced. The notes for the lecture part can be found in the Lecture pages. In the hands-on session, students, together with Dr. Haosheng Wu, will carry out some practical exercises based on the Jupyter Notebook. An additional Preparation session is also provided that help the students install necessary materials/softwares, which are used in this workshop.
 
 If you find the hands-on sessions difficult, you can read Chapters 1–6 in *The Plasma Boundary of Magnetic Fusion Devices by Peter C. Stangeby*.
 
@@ -28,10 +28,10 @@ The students will be divided into two groups. The agenda is as follows:
 
 |DATE|ARRANGEMENT|TIME|CONTENT|
 |:-:|:-:|:-:|:-:|
-|2025-11-11|Preparation session|11:30-13:30|Introduction|
-|2025-12-02|Lecture 1 + Hand-on session 1|16:00-19:00|Background|
-|2025-12-12|Lecture 2 + Hand-on session 2|16:00-19:00|SOL Transport|
-|2025-12-16|Lecture 3 + Hand-on session 3|16:00-19:00|Divertor Regimes|
+|2026-11-17|Preparation session|11:30-13:00|Introduction|
+|2025-11-26|Lecture 1 + Hand-on session 1|16:00-19:00|Background|
+|2025-12-03|Lecture 2 + Hand-on session 2|16:00-19:00|SOL Transport|
+|2025-12-10|Lecture 3 + Hand-on session 3|8:30-11:30|Divertor Regimes|
 
 </div>
 
@@ -40,10 +40,10 @@ The students will be divided into two groups. The agenda is as follows:
 
 |DATE|ARRANGEMENT|TIME|CONTENT|
 |:-:|:-:|:-:|:-:|
-|2025-11-11|Preparation session|11:30-13:30|Introduction|
-|2025-11-13|Lecture 1 + Hand-on session 1|16:00-19:00|Background|
-|2025-12-02|Lecture 2 + Hand-on session 2|11:30-14:30|SOL Transport|
-|2026-12-15|Lecture 3 + Hand-on session 3|08:30-11:30|Divertor Regimes|
+|2025-11-17|Preparation session|13:00-14:30|Introduction|
+|2025-11-27|Lecture 1 + Hand-on session 1|8:30-11:30|Background|
+|2025-12-04|Lecture 2 + Hand-on session 2|8:30-11:30|SOL Transport|
+|2026-12-10|Lecture 3 + Hand-on session 3|16:00-19:00|Divertor Regimes|
 
 </div>
 
