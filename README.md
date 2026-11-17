@@ -26,12 +26,12 @@ The students will be divided into two groups. The agenda is as follows:
 #### GROUP A
 <div class="table-wrapper" markdown="block">
 
-|DATE|ARRANGEMENT|TIME|CONTENT|
-|:-:|:-:|:-:|:-:|
+|DATE|ARRANGEMENT|TIME|CONTENT|ROOM|
+|:-:|:-:|:-:|:-:|:-:|
 |2026-11-17|Preparation session|11:30-13:00|Introduction|
-|2026-11-26|Lecture 1 + Hand-on session 1|16:00-19:00|Background|
-|2026-12-03|Lecture 2 + Hand-on session 2|16:00-19:00|SOL Transport|
-|2026-12-10|Lecture 3 + Hand-on session 3|8:30-11:30|Divertor Regimes|
+|2026-11-26|Lecture 1 + Hand-on session 1|16:00-19:00|Background|3D|
+|2026-12-04|Lecture 2 + Hand-on session 2|8:30-10:00|SOL Transport|1S|
+|2026-12-10|Lecture 3 + Hand-on session 3|8:30-10:00|Divertor Regimes|?|
 
 </div>
 
@@ -41,9 +41,9 @@ The students will be divided into two groups. The agenda is as follows:
 |DATE|ARRANGEMENT|TIME|CONTENT|
 |:-:|:-:|:-:|:-:|
 |2026-11-17|Preparation session|13:00-14:30|Introduction|
-|2026-11-27|Lecture 1 + Hand-on session 1|8:30-11:30|Background|
-|2026-12-04|Lecture 2 + Hand-on session 2|8:30-11:30|SOL Transport|
-|2026-12-10|Lecture 3 + Hand-on session 3|16:00-19:00|Divertor Regimes|
+|2026-11-27|Lecture 1 + Hand-on session 1|8:30-11:30|Background|1S|
+|2026-12-03|Lecture 2 + Hand-on session 2|16:00-19:00|SOL Transport|3D|
+|2026-12-10|Lecture 3 + Hand-on session 3|16:00-19:00|Divertor Regimes|?|
 
 </div>
 
